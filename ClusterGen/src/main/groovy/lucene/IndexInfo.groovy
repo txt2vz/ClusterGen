@@ -40,8 +40,7 @@ class IndexInfo {
 	//"indexes/webkb"
 	//"indexes/reut8stem"
 	//"indexes/reut8"
-	'indexes/20NG3SpaceHockeyChristian'
-	
+	'indexes/20NG3SpaceHockeyChristian'	
 
 	public void setIndex(){
 
@@ -57,5 +56,4 @@ class IndexInfo {
 		TermQuery testQ = new TermQuery(new Term(
 				IndexInfo.FIELD_TEST_TRAIN, "test"));
 	}
-
 }
