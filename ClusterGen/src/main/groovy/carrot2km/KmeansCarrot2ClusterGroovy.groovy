@@ -33,6 +33,8 @@ import org.carrot2.source.lucene.LuceneDocumentSourceDescriptor
 import org.carrot2.util.annotations.ThreadSafe
 import org.carrot2.util.attribute.IObjectFactory
 import org.carrot2.core.LanguageCode;
+
+import lucene.IndexInfo
 /**
  * This example  shows how to apply custom processing to documents returned by the
  * {@link LuceneDocumentSource}.
@@ -77,8 +79,9 @@ public class KmeansCarrot2ClusterGroovy
 		final Map<String, Object> luceneGlobalAttributes = new HashMap<String, Object>();
 
 		String indexPath = 
+		IndexInfo.instance.pathToIndex
 		                   //"indexes/reut8/"
-	                     "indexes/20NG3SpaceHockeyChristian/"
+	                //     "indexes/20NG3SpaceHockeyChristian/"
 					//	   "indexes/classic4_500/"
 
 
@@ -186,16 +189,16 @@ public class KmeansCarrot2ClusterGroovy
 			 */
 		   // carrot2Doc.setContentUrl(luceneDoc.get("contents"));
 			carrot2Doc.setTitle(luceneDoc.get("path"));
-			carrot2Doc.setField("category", luceneDoc.get("category"));
+			carrot2Doc.setField("category", luceneDoc.get(IndexInfo.FIELD_CATEGORY));
 	
 			
-			carrot2Doc.setField("contents", luceneDoc.get("contents"));
+			carrot2Doc.setField("contents", luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 			
 			carrot2Doc.setLanguage(LanguageCode.ENGLISH);
 			//carrot2Doc.setField("fullContent", luceneDoc.get("fullContent"));
-			carrot2Doc.setField("fullContent", luceneDoc.get("contents"));
+			carrot2Doc.setField("fullContent", luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 			
-	      	carrot2Doc.setSummary(luceneDoc.get("contents"));
+	      	carrot2Doc.setSummary(luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 		
 				//carrot2Doc.setField("category", luceneDoc.get("rating"));
 //
@@ -212,7 +215,7 @@ public class KmeansCarrot2ClusterGroovy
 			 * Note that these fields don't necessarily have to be the same as the fields
 			 * used in the map() method.
 			 */
-			 String[] s = ["fullContent", "contents"] as String[]
+			 String[] s = [IndexInfo.FIELD_CONTENTS] as String[]
 			 return s
 //			return new String []
 //			{

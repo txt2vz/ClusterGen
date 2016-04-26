@@ -35,29 +35,13 @@ class IndexInfo {
 	public IndexSearcher indexSearcher
 	public IndexReader indexReader
 
-	private String pathToIndex =
+	public String pathToIndex =
 	//"indexes/classic4_500"
 	//"indexes/webkb"
 	//"indexes/reut8stem"
 	//"indexes/reut8"
 	'indexes/20NG3SpaceHockeyChristian'
-	//"C:\\Users\\Laurie\\Java\\indexes2\\20NG3TestSpaceHockeyChristian"
-//	"C:\\Users\\laurie\\Java\\indexes2\\classic3"
-	//"C:\\Users\\laurie\\Java\\indexes2\\webkb"
 	
-//	/C:\Users\laurie\Java\indexes2\classic4_200/ 
-	//"C:\\Users\\laurie\\Java\\indexes2\\classic4"
-		//"C:\\Users\\laurie\\Java\\indexes2\\20NG4GunCryptChristianHockeyP"
-	//private final static pathToIndex =
-	//  "C:\\Users\\laurie\\Java\\indexes2\\crawl7"
-	//	"C:\\Users\\laurie\\Java\\indexes2\\20NG3"
-	//	"/home/test/indexes2/20NG4HockeySpaceChristianGuns"
-	//	"/home/test/indexes2/20NG4HockeySpaceChristianGunsNoStem"
-	//	"/home/test/indexes2/20bydate/"
-	//	"C:\\Users\\laurie\\Java\\indexes2\\20NG5macForsaleCryptMideast"
-	//"C:\\Users\\laurie\\Java\\indexes2\\bbc"
-	//	"C:\\Users\\laurie\\Java\\indexes2\\Ohs3BactDigestResp"
-	//	"C:\\Users\\laurie\\Java\\indexes2\\20NG3MedHockeyGraphicsTest"
 
 	public void setIndex(){
 

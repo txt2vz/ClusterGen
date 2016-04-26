@@ -1,5 +1,5 @@
 package ecj
-
+ 
 import lucene.IndexInfo
 import ec.EvolutionState
 import ec.Evolve
@@ -10,8 +10,8 @@ class GAmainCluster extends Evolve {
 
 	private final String parameterFilePath =  "src/cfg/Cluster.params"
 
-	final static int NUMBER_OF_JOBS = 2;
-
+	final static int NUMBER_OF_JOBS = 4;
+ 
 	public GAmainCluster(){
 		EvolutionState state;
 		IndexInfo.instance.setIndex()
