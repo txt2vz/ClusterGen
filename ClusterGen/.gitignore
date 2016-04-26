@@ -8,4 +8,5 @@
 *.xlsx
 *.txt
 *.dump
+*.stat
 gradle.prefs
