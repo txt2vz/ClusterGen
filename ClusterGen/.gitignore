@@ -1,0 +1,11 @@
+/bin
+/build
+.gradle
+.classpath
+/build
+.project
+.settings
+*.xlsx
+*.txt
+*.dump
+gradle.prefs

@@ -1,0 +1,3 @@
+package ecj
+
+println "h"

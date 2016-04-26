@@ -1,0 +1,314 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 4.2209018881917 scoreOrig: -395.7790981118083
+88 104 137 179 134 151 148 56 153 123 154 176
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 7.02421439350976 scoreOrig: -392.97578560649026
+122 -6 190 33 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 1.4548171903208875 scoreOrig: -398.5451828096791
+95 2 169 -10 123 188 148 178 32 174 80 26
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 4.2209018881917 scoreOrig: -395.7790981118083
+88 104 137 179 134 151 148 56 153 123 154 176
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 7.02421439350976 scoreOrig: -392.97578560649026
+122 -6 190 33 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 2.528533306038842 scoreOrig: -397.47146669396113
+180 192 125 128 194 21 -8 146 68 23 191 183
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 4.267623099960387 scoreOrig: -395.73237690003964
+118 104 137 179 134 151 148 56 153 123 154 176
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 7.485227206427371 scoreOrig: -392.5147727935726
+183 22 190 33 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 2.9196800620406864 scoreOrig: -397.0803199379593
+152 105 96 -4 162 111 58 141 118 42 167 80
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 7.029347737958282 scoreOrig: -392.9706522620417
+54 113 109 191 104 147 80 52 106 84 4 176
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 7.485227206427371 scoreOrig: -392.5147727935726
+183 22 190 33 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 2.9196800620406864 scoreOrig: -397.0803199379593
+152 105 96 -4 162 111 58 141 118 42 167 80
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 7.029347737958282 scoreOrig: -392.9706522620417
+54 113 109 191 104 147 80 52 106 84 4 176
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 7.485227206427371 scoreOrig: -392.5147727935726
+183 22 190 33 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 3.2847335344280117 scoreOrig: -396.715266465572
+56 154 50 128 194 21 -8 146 68 90 191 183
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 9.243513742653032 scoreOrig: -390.756486257347
+104 169 0 58 45 127 196 141 153 8 138 176
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 7.485227206427371 scoreOrig: -392.5147727935726
+183 22 190 33 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 3.479162003673234 scoreOrig: -396.52083799632675
+149 154 59 193 123 188 153 56 43 19 96 80
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 19.76512354693115 scoreOrig: -380.23487645306886
+37 60 23 191 7 151 -10 197 80 196 5 76
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 12.272721599424258 scoreOrig: -387.72727840057576
+4 22 190 95 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 9.708077982733027 scoreOrig: -390.291922017267
+124 128 1 136 43 151 134 133 17 116 188 58
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 19.76512354693115 scoreOrig: -380.23487645306886
+37 60 23 191 7 151 -10 197 80 196 5 76
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 65.176932386579 scoreOrig: -334.823067613421
+-5 22 190 106 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 9.708077982733027 scoreOrig: -390.291922017267
+124 128 1 136 43 151 134 133 17 116 188 58
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 31.94648494656831 scoreOrig: -368.0535150534317
+16 121 51 60 192 140 -7 35 168 -2 104 80
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 65.19884996543638 scoreOrig: -334.80115003456365
+122 22 190 106 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 30.941650268523645 scoreOrig: -369.05834973147637
+189 69 115 2 -5 78 188 -2 -6 140 29 80
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 31.94648494656831 scoreOrig: -368.0535150534317
+16 121 51 60 192 140 -7 35 168 -2 104 80
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 65.19884996543638 scoreOrig: -334.80115003456365
+122 22 190 106 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 31.682269695408646 scoreOrig: -368.31773030459135
+79 144 115 73 -5 78 188 -2 -6 140 29 80
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 31.94648494656831 scoreOrig: -368.0535150534317
+16 121 51 60 192 140 -7 35 168 -2 104 80
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 65.19884996543638 scoreOrig: -334.80115003456365
+122 22 190 106 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 32.50691644505908 scoreOrig: -367.49308355494094
+-10 157 186 68 -5 78 188 -2 -6 140 29 80
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 31.94648494656831 scoreOrig: -368.0535150534317
+16 121 51 60 192 140 -7 35 168 -2 104 80
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 65.19884996543638 scoreOrig: -334.80115003456365
+122 22 190 106 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 50.42068295965158 scoreOrig: -349.5793170403484
+79 144 115 73 -5 78 188 -2 168 140 29 80
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 31.94648494656831 scoreOrig: -368.0535150534317
+16 121 51 60 192 140 -7 35 168 -2 104 80
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 65.19884996543638 scoreOrig: -334.80115003456365
+122 22 190 106 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 207.42105749109012 scoreOrig: -192.57894250890988
+156 25 191 -8 -5 78 188 -2 168 140 29 80
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 65.19884996543638 scoreOrig: -334.80115003456365
+122 22 190 106 181 120 72 46 90 139 178 46
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 207.42105749109012 scoreOrig: -192.57894250890988
+156 25 191 -8 -5 78 188 -2 168 140 29 80
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 127.092159090098 scoreOrig: -272.907840909902
+122 22 190 106 181 120 72 46 90 139 178 -4
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 207.96836448192596 scoreOrig: -192.03163551807404
+181 105 196 195 -5 78 188 -2 168 140 29 80
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 127.092159090098 scoreOrig: -272.907840909902
+122 22 190 106 181 120 72 46 90 139 178 -4
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 207.96836448192596 scoreOrig: -192.03163551807404
+181 105 196 195 -5 78 188 -2 168 140 29 80
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 163.352961962834 scoreOrig: -236.647038037166
+31 133 61 33 116 80 151 16 -8 139 149 7
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 207.96836448192596 scoreOrig: -192.03163551807404
+181 105 196 195 -5 78 188 -2 168 140 29 80
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 163.352961962834 scoreOrig: -236.647038037166
+31 133 61 33 116 80 151 16 -8 139 149 7
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 207.96836448192596 scoreOrig: -192.03163551807404
+181 105 196 195 -5 78 188 -2 168 140 29 80
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 163.352961962834 scoreOrig: -236.647038037166
+31 133 61 33 116 80 151 16 -8 139 149 7
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 211.7855121872425 scoreOrig: -188.2144878127575
+6 160 196 195 -5 78 188 -2 168 140 29 80
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 163.352961962834 scoreOrig: -236.647038037166
+31 133 61 33 116 80 151 16 -8 139 149 7
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 211.7855121872425 scoreOrig: -188.2144878127575
+6 160 196 195 -5 78 188 -2 168 140 29 80
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: T
+Cluster Fitness: 33.63749783056389 scoreOrig: -366.3625021694361
+110 42 37 15 141 174 80 27 143 153 -6 116
+Subpopulation 1:
+Evaluated: T
+Cluster Fitness: 163.352961962834 scoreOrig: -236.647038037166
+31 133 61 33 116 80 151 16 -8 139 149 7
+Subpopulation 2:
+Evaluated: T
+Cluster Fitness: 211.7855121872425 scoreOrig: -188.2144878127575
+6 160 196 195 -5 78 188 -2 168 140 29 80
