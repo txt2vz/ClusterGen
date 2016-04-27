@@ -142,10 +142,9 @@ public class KmeansCarrot2ClusterGroovy
 		final Map<String, Object> processingAttributes = Maps.newHashMap();
 		CommonAttributesDescriptor.attributeBuilder(processingAttributes)
 			.query(query);
-		processingAttributes.put(CommonAttributesDescriptor.Keys.RESULTS, 5000);
-	
-		processingAttributes.put("TermDocumentMatrixBuilder.titleWordsBoost", (double) 0.0);
-	
+			
+		processingAttributes.put(CommonAttributesDescriptor.Keys.RESULTS, 5000);	
+		processingAttributes.put("TermDocumentMatrixBuilder.titleWordsBoost", (double) 0.0);	
 		processingAttributes.put("BisectingKMeansClusteringAlgorithm.clusterCount", 3);
 
 
@@ -187,11 +186,9 @@ public class KmeansCarrot2ClusterGroovy
 			 * Here we need to transfer the desired content from the provided Lucene
 			 * document to the provided Carrot2 document.
 			 */
-		   // carrot2Doc.setContentUrl(luceneDoc.get("contents"));
+		  //  carrot2Doc.setContentUrl(luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 			carrot2Doc.setTitle(luceneDoc.get("path"));
-			carrot2Doc.setField("category", luceneDoc.get(IndexInfo.FIELD_CATEGORY));
-	
-			
+			carrot2Doc.setField("category", luceneDoc.get(IndexInfo.FIELD_CATEGORY));			
 			carrot2Doc.setField("contents", luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 			
 			carrot2Doc.setLanguage(LanguageCode.ENGLISH);
@@ -200,8 +197,7 @@ public class KmeansCarrot2ClusterGroovy
 			
 	      	carrot2Doc.setSummary(luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 		
-				//carrot2Doc.setField("category", luceneDoc.get("rating"));
-//
+				//carrot2Doc.setField("category", luceneDoc.get("rating"));//
    //         carrot2Doc.setContentUrl(luceneDoc.get("contents"));
 //            carrot2Doc.setTitle(luceneDoc.get("title"));
 //            carrot2Doc.setSummary(luceneDoc.get("snippet"));
@@ -215,7 +211,9 @@ public class KmeansCarrot2ClusterGroovy
 			 * Note that these fields don't necessarily have to be the same as the fields
 			 * used in the map() method.
 			 */
-			 String[] s = [IndexInfo.FIELD_CONTENTS] as String[]
+			 String[] s = [IndexInfo.FIELD_CONTENTS, "fullContent"] as String[]
+			 println "s is $s"
+			 
 			 return s
 //			return new String []
 //			{
