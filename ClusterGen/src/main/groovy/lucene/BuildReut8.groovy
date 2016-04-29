@@ -24,7 +24,7 @@ import org.apache.lucene.store.FSDirectory
 
 class BuildReut8 {
 	// Create Lucene index in this directory
-	def indexPath = 	"indexes/reut8stem"
+	def indexPath = 	"indexes/reut5"
 
 	//	/C:\Users\laurie\Java\indexes2\classic4_500/
 	//"C:\\Users\\laurie\\Java\\indexes2\\webkb"
@@ -38,11 +38,11 @@ class BuildReut8 {
 	// Index files in this directory
 	//	def docsPath = "C:\\Users\\Laurie\\Dataset\\20NG3Test"
 	def docsPath =
-	"dataset/r8/r8"
+	//"dataset/r8/r8"
 	// /C:\Users\Laurie\Dataset\webkb/
-	///C:\Users\Laurie\Dataset\reut8/
+	//C:\Users\Laurie\Dataset\reut8/
 	// /C:\Users\Laurie\Dataset\reuters-top10/
-//	/C:\Users\Laurie\Dataset\r8/
+	/C:\Users\Laurie\Dataset\r5/
 	//C:\Users\Laurie\Dataset\classic/
 	//"C:\\Users\\Laurie\\Dataset\\20NG3TestSpaceHockeyChristian"
 	//"C:\\Users\\Laurie\\Dataset\\20NG4GunCryptChristianHockey"
@@ -53,8 +53,8 @@ class BuildReut8 {
 
 	Path path = Paths.get(indexPath)
 	Directory directory = FSDirectory.open(path)
-	Analyzer analyzer = new EnglishAnalyzer();
-	//new StandardAnalyzer();
+	Analyzer analyzer = //new EnglishAnalyzer();
+	                  new StandardAnalyzer();
 	def catsFreq=[:]
 	def docsSet = [] as Set
 

@@ -83,6 +83,7 @@ public class KmeansCarrot2ClusterGroovy
 		                   //"indexes/reut8/"
 	                //     "indexes/20NG3SpaceHockeyChristian/"
 					//	   "indexes/classic4_500/"
+		
 
 
 		// Sanity check.
@@ -145,7 +146,7 @@ public class KmeansCarrot2ClusterGroovy
 			
 		processingAttributes.put(CommonAttributesDescriptor.Keys.RESULTS, 5000);	
 		processingAttributes.put("TermDocumentMatrixBuilder.titleWordsBoost", (double) 0.0);	
-		processingAttributes.put("BisectingKMeansClusteringAlgorithm.clusterCount", 3);
+		processingAttributes.put("BisectingKMeansClusteringAlgorithm.clusterCount", IndexInfo.instance.NUMBER_OF_CLUSTERS);
 
 
 		/*

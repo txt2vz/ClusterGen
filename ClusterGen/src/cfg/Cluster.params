@@ -1,4 +1,4 @@
-parent.0 = ClusterSubpop.params
+ parent.0 = ClusterSubpop.params
 #parent.0 = ClusterSinglePop.params
 #parent.0		= simple.params
 
@@ -6,7 +6,7 @@ eval.problem = ecj.Cluster
 
 evalthreads = 4 
 breedthreads = 4
-generations =  20   
+generations =  720   
 breed.elite.0 = 1
 
 //pop.subpops = 3
@@ -26,4 +26,3 @@ pop.subpop.1.species.min-gene = -10
 pop.subpop.1.species.max-gene = 200
 pop.subpop.2.species.min-gene = -10
 pop.subpop.2.species.max-gene = 200
-

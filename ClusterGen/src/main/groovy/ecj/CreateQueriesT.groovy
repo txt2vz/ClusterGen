@@ -75,7 +75,7 @@ trait CreateQueriesT {
 
 		intVectorIndividual.genome.eachWithIndex {gene, index ->
 
-			if (!genes.add(gene)) duplicateCount = duplicateCount + 1;
+
 
 			int clusterNumber =  index % cNumber
 
@@ -86,15 +86,17 @@ trait CreateQueriesT {
 			if (gene < wordArray.size() && gene >= 0){
 				TermQuery tq = new TermQuery(new Term(IndexInfo.FIELD_CONTENTS, wrd))
 
-				if (index < cNumber){
+				if (index >= (intVectorIndividual.genome.size() -  cNumber)){
 
 					bqbList[clusterNumber].add(tq,BooleanClause.Occur.MUST_NOT)
 
 				} else
 				{
+					if (!genes.add(gene)) duplicateCount = duplicateCount + 1;
+					
 					bqbList[clusterNumber].add(tq,BooleanClause.Occur.SHOULD)
 				}
-		
+
 				//check that the subquery returns something
 				TotalHitCountCollector collector = new TotalHitCountCollector();
 				searcher.search(tq, collector);

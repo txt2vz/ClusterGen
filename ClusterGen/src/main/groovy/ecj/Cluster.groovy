@@ -47,8 +47,8 @@ public class Cluster extends Problem implements CreateQueriesT, SimpleProblemFor
 		IntegerVectorIndividual intVectorIndividual = (IntegerVectorIndividual) ind;
 
 		def bqbList =
-			//	getORNOTQL(wordArray, intVectorIndividual, NUMBER_OF_CLUSTERS)
-		getORQL(wordArray, intVectorIndividual, NUMBER_OF_CLUSTERS)
+		//		getORNOTQL(wordArray, intVectorIndividual, NUMBER_OF_CLUSTERS)
+	  	getORQL(wordArray, intVectorIndividual, NUMBER_OF_CLUSTERS)
 		//getANDQL(wordArray, intVectorIndividual, NUMBER_OF_CLUSTERS)
 
 		final int hitsPerPage = 3000;

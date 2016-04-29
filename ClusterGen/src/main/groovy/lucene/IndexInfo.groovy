@@ -36,11 +36,16 @@ class IndexInfo {
 	public IndexReader indexReader
 
 	public String pathToIndex =
+	"indexes/Ohs3Bact02Dig06Resp08"
+	//"indexes/20NG5macForsaleHockeyCryptMideast"
+	//"indexes/reut5"
 	//"indexes/classic4_500"
 	//"indexes/webkb"
 	//"indexes/reut8stem"
 	//"indexes/reut8"
-	'indexes/20NG3SpaceHockeyChristian'	
+	//'indexes/20NG3SpaceHockeyChristian'
+	//"indexes/20NG4GunCryptChristHockey"
+	
 
 	public void setIndex(){
 

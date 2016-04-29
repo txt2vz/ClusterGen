@@ -25,7 +25,9 @@ import org.apache.lucene.codecs.*
 
 class BuildClusterIndex {
 	// Create Lucene index in this directory
-	def indexPath = 	"indexes/20NG3SpaceHockeyChristian"
+	def indexPath = "indexes/Ohs3Bact02Dig06Resp08"	
+	//"indexes/20NG5macForsaleHockeyCryptMideast"
+	//"indexes/20NG3SpaceHockeyChristian"
 
 	//	/C:\Users\laurie\Java\indexes2\classic4_500/
 	//"C:\\Users\\laurie\\Java\\indexes2\\webkb"
@@ -41,8 +43,10 @@ class BuildClusterIndex {
 	def docsPath =
 //  	/C:\Users\Laurie\Dataset\webkb/
 	
-	/C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian/
-	
+	// /C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian/
+	/C:\Users\Laurie\Dataset\Ohs3BactDigestResp/
+	//  /C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast/
+//	/C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey/
 	//C:\Users\Laurie\Dataset\classic/
 	//"C:\\Users\\Laurie\\Dataset\\20NG3TestSpaceHockeyChristian"
 	//"C:\\Users\\Laurie\\Dataset\\20NG4GunCryptChristianHockey"
@@ -99,6 +103,7 @@ class BuildClusterIndex {
 	throws IOException {
 
 		def doc = new Document()
+//C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C08
 
 		Field pathField = new StringField(IndexInfo.FIELD_PATH, f.getPath(), Field.Store.YES);
 		doc.add(pathField);
@@ -107,9 +112,8 @@ class BuildClusterIndex {
 		//def catName = f.getName().substring(0,4)
 //C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\rec.sport.hockey\53715
 		//for webKB
-		def catName = f.getCanonicalPath().drop(54).take(6)
-		//println f.getCanonicalPath()
-		//println "catName $catName"
+		def catName = f.getCanonicalPath().drop(44).take(8).replaceAll("[0-9]","")
+	
 
 		def n = catsFreq.get((catName)) ?: 0
 		if (n< 500 || true){
