@@ -24,19 +24,20 @@ import query.*
 class IndexInfo {
 
 	// Lucene field names
-	public static final String FIELD_CATEGORY = "category";
+	//public static final String FIELD_CATEGORY = "category";
 	public static final String FIELD_CATEGORY_NAME = "category_name";
 	public static final String FIELD_CONTENTS = "contents";
 	public static final String FIELD_PATH = "path";
 	public static final String FIELD_TEST_TRAIN = "test_train";
 
-    int NUMBER_OF_CLUSTERS = 3 
+    int NUMBER_OF_CLUSTERS = 2 
 
 	public IndexSearcher indexSearcher
 	public IndexReader indexReader
 
 	public String pathToIndex =
-	"indexes/Ohs3Bact02Dig06Resp08"
+	"indexes/disaster"
+	//"indexes/Ohs3Bact02Dig06Resp08"
 	//"indexes/20NG5macForsaleHockeyCryptMideast"
 	//"indexes/reut5"
 	//"indexes/classic4_500"

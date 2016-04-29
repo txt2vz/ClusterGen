@@ -189,7 +189,7 @@ public class KmeansCarrot2ClusterGroovy
 			 */
 		  //  carrot2Doc.setContentUrl(luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 			carrot2Doc.setTitle(luceneDoc.get("path"));
-			carrot2Doc.setField("category", luceneDoc.get(IndexInfo.FIELD_CATEGORY));			
+			carrot2Doc.setField("category", luceneDoc.get(IndexInfo.FIELD_CATEGORY_NAME));			
 			carrot2Doc.setField("contents", luceneDoc.get(IndexInfo.FIELD_CONTENTS));
 			
 			carrot2Doc.setLanguage(LanguageCode.ENGLISH);

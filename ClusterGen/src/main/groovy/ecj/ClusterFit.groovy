@@ -91,7 +91,7 @@ public class ClusterFit extends SimpleFitness {
 				int docId = h.doc;
 				def scr = h.score
 				Document d = searcher.doc(docId);
-				def cat = d.get(IndexInfo.FIELD_CATEGORY)
+				def cat = d.get(IndexInfo.FIELD_CATEGORY_NAME)
 
 				def n = catsFreq.get((cat)) ?: 0
 				catsFreq.put((cat), n + 1)
@@ -111,7 +111,7 @@ public class ClusterFit extends SimpleFitness {
 
 			if (catMax !=0){
 				TotalHitCountCollector thcollector  = new TotalHitCountCollector();
-				final TermQuery catQ = new TermQuery(new Term(IndexInfo.FIELD_CATEGORY,
+				final TermQuery catQ = new TermQuery(new Term(IndexInfo.FIELD_CATEGORY_NAME,
 						catMax.key));
 				searcher.search(catQ, thcollector);
 				def categoryTotal = thcollector.getTotalHits();
