@@ -7,4 +7,3 @@
 .settings
 *.xlsx
 gradle.prefs
-statDump/
