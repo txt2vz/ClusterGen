@@ -6,8 +6,5 @@
 .project
 .settings
 *.xlsx
-*.dump
-*.stat
-*.stat
-*.stat.dump
 gradle.prefs
+statDump/
