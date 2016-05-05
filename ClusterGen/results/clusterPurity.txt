@@ -1,0 +1,1437 @@
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  space moon orbit nasa  Found 447 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60830 cat number space\ catName: space\
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60971 cat number space\ catName: space\
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61033 cat number space\ catName: space\
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60879 cat number space\ catName: space\
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60982 cat number space\ catName: space\
+categoryTotal is 593 for catQ category:space\ 
+f1: 0.81153846153665902367 recall: 0.7116357504 precision: 0.9440715884
+Purity: 0.9440716030 Job: 1 
+Cluster 1 searching for:  bible god christians  Found 448 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20795 cat number christ catName: christ
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20647 cat number christ catName: christ
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20837 cat number christ catName: christ
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20789 cat number christ catName: christ
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20652 cat number christ catName: christ
+categoryTotal is 599 for catQ category:christ 
+f1: 0.82330468005582858743 recall: 0.7195325543 precision: 0.9620535714
+Purity: 0.9620535899 Job: 1 
+Cluster 2 searching for:  players game hockey nhl  Found 465 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52602 cat number hockey catName: hockey
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52623 cat number hockey catName: hockey
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52612 cat number hockey catName: hockey
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52605 cat number hockey catName: hockey
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\54195 cat number hockey catName: hockey
+categoryTotal is 600 for catQ category:hockey 
+f1: 0.83755868540722078953 recall: 0.7433333333 precision: 0.9591397849
+Purity: 0.9591397696 Job: 1 
+f1list: [0.81153846153665902367, 0.82330468005582858743, 0.83755868540722078953] averagef1: :0.82413394233323613354
+PosHits: 1266 NegHits: 94 PosScore: 168.00040235975757 NegScore: 7.270009596832097 Fitness: 410.84765945356315 
+ TotalHits: 1313 Total Docs: 1792
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  orbit moon space henry  Found 443 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60813 cat number space\ catName: space\
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61053 cat number space\ catName: space\
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60837 cat number space\ catName: space\
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60826 cat number space\ catName: space\
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61192 cat number space\ catName: space\
+categoryTotal is 593 for catQ category:space\ 
+f1: 0.81467181465965176428 recall: 0.7116357504 precision: 0.9525959368
+Purity: 0.9525959186 Job: 2 
+Cluster 1 searching for:  hockey play team game  Found 515 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52638 cat number hockey catName: hockey
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52611 cat number hockey catName: hockey
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52602 cat number hockey catName: hockey
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\53549 cat number hockey catName: hockey
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52618 cat number hockey catName: hockey
+categoryTotal is 600 for catQ category:hockey 
+f1: 0.8233183856407 recall: 0.765 precision: 0.8912621359
+Purity: 0.8912621484 Job: 2 
+Cluster 2 searching for:  church christian christ god  Found 502 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20756 cat number christ catName: christ
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20837 cat number christ catName: christ
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\21379 cat number christ catName: christ
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20782 cat number christ catName: christ
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20798 cat number christ catName: christ
+categoryTotal is 599 for catQ category:christ 
+f1: 0.85376930061616646084 recall: 0.7846410684 precision: 0.9362549801
+Purity: 0.9362549930 Job: 2 
+f1list: [0.81467181465965176428, 0.8233183856407, 0.85376930061616646084] averagef1: :0.83058650030550607504
+PosHits: 1284 NegHits: 176 PosScore: 158.92771009355783 NegScore: 12.390760025940835 Fitness: 418.1373652660124 
+ TotalHits: 1371 Total Docs: 1792
+************************************************ 
+ 
+Job 3 **************************************************************** 
+ Cluster 0 searching for:  henry space orbit moon  Found 443 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60813 cat number space\ catName: space\
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61053 cat number space\ catName: space\
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60837 cat number space\ catName: space\
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60826 cat number space\ catName: space\
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61192 cat number space\ catName: space\
+categoryTotal is 593 for catQ category:space\ 
+f1: 0.81467181465965176428 recall: 0.7116357504 precision: 0.9525959368
+Purity: 0.9525959186 Job: 3 
+Cluster 1 searching for:  team game hockey play  Found 515 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52638 cat number hockey catName: hockey
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52611 cat number hockey catName: hockey
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52602 cat number hockey catName: hockey
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\53549 cat number hockey catName: hockey
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52618 cat number hockey catName: hockey
+categoryTotal is 600 for catQ category:hockey 
+f1: 0.8233183856407 recall: 0.765 precision: 0.8912621359
+Purity: 0.8912621484 Job: 3 
+Cluster 2 searching for:  god christian christians  Found 466 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20795 cat number christ catName: christ
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20671 cat number christ catName: christ
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20647 cat number christ catName: christ
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20837 cat number christ catName: christ
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20798 cat number christ catName: christ
+categoryTotal is 599 for catQ category:christ 
+f1: 0.82629107982267645308 recall: 0.7345575960 precision: 0.9442060086
+Purity: 0.9442059880 Job: 3 
+f1list: [0.81467181465965176428, 0.8233183856407, 0.82629107982267645308] averagef1: :0.82142709337434273912
+PosHits: 1256 NegHits: 168 PosScore: 168.02171040233225 NegScore: 12.537745781242847 Fitness: 415.06307399508813 
+ TotalHits: 1339 Total Docs: 1792
+************************************************ 
+ 
+Job 4 **************************************************************** 
+ Cluster 0 searching for:  bible god christians  Found 448 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20795 cat number christ catName: christ
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20647 cat number christ catName: christ
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20837 cat number christ catName: christ
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20789 cat number christ catName: christ
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20652 cat number christ catName: christ
+categoryTotal is 599 for catQ category:christ 
+f1: 0.82330468005582858743 recall: 0.7195325543 precision: 0.9620535714
+Purity: 0.9620535899 Job: 4 
+Cluster 1 searching for:  game nhl players hockey  Found 465 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52602 cat number hockey catName: hockey
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52623 cat number hockey catName: hockey
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52612 cat number hockey catName: hockey
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52605 cat number hockey catName: hockey
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\54195 cat number hockey catName: hockey
+categoryTotal is 600 for catQ category:hockey 
+f1: 0.83755868540722078953 recall: 0.7433333333 precision: 0.9591397849
+Purity: 0.9591397696 Job: 4 
+Cluster 2 searching for:  orbit nasa moon space  Found 447 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60830 cat number space\ catName: space\
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60971 cat number space\ catName: space\
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61033 cat number space\ catName: space\
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60879 cat number space\ catName: space\
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60982 cat number space\ catName: space\
+categoryTotal is 593 for catQ category:space\ 
+f1: 0.81153846153665902367 recall: 0.7116357504 precision: 0.9440715884
+Purity: 0.9440716030 Job: 4 
+f1list: [0.82330468005582858743, 0.83755868540722078953, 0.81153846153665902367] averagef1: :0.82413394233323613354
+PosHits: 1266 NegHits: 94 PosScore: 168.00040235975757 NegScore: 7.270009596832097 Fitness: 410.84765945356315 
+ TotalHits: 1313 Total Docs: 1792
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  orbit usa shuttle pat  Found 373 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61180 cat number space\ catName: space\
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61010 cat number space\ catName: space\
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60828 cat number space\ catName: space\
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\61214 cat number space\ catName: space\
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\space\60977 cat number space\ catName: space\
+categoryTotal is 593 for catQ category:space\ 
+f1: 0.57349896478686457570 recall: 0.4671163575 precision: 0.7426273458
+Purity: 0.7426273327 Job: 1 
+Cluster 1 searching for:  game toronto nhl  Found 454 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52633 cat number hockey catName: hockey
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\53558 cat number hockey catName: hockey
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52605 cat number hockey catName: hockey
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\53753 cat number hockey catName: hockey
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\hockey\52612 cat number hockey catName: hockey
+categoryTotal is 600 for catQ category:hockey 
+f1: 0.74952561669025632901 recall: 0.6583333333 precision: 0.8700440529
+Purity: 0.8700440640 Job: 1 
+Cluster 2 searching for:  jesus church god christ  Found 487 hits:
+0 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20793 cat number christ catName: christ
+1 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\21359 cat number christ catName: christ
+2 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20684 cat number christ catName: christ
+3 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20837 cat number christ catName: christ
+4 path C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\christian\20952 cat number christ catName: christ
+categoryTotal is 599 for catQ category:christ 
+f1: 0.85267034991053912341 recall: 0.7729549249 precision: 0.9507186858
+Purity: 0.9507186903 Job: 1 
+f1list: [0.57349896478686457570, 0.74952561669025632901, 0.85267034991053912341] averagef1: :0.72523164379588667604
+PosHits: 1109 NegHits: 205 PosScore: 126.48090910445899 NegScore: 12.470097659621388 Fitness: 347.0720322887345 
+ TotalHits: 1210 Total Docs: 1792
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  christians god jesus  Found 498 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20547 cat number oc.rel catName: oc.rel
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20671 cat number oc.rel catName: oc.rel
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20773 cat number oc.rel catName: oc.rel
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20848 cat number oc.rel catName: oc.rel
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20952 cat number oc.rel catName: oc.rel
+categoryTotal is 599 for catQ category:oc.rel 
+f1: 0.81130355515365133550 recall: 0.7429048414 precision: 0.8935742972
+Purity: 0.8935742845 Job: 1 
+Cluster 1 searching for:  nhl players hockey  Found 369 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52658 cat number ec.spo catName: ec.spo
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53727 cat number ec.spo catName: ec.spo
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52623 cat number ec.spo catName: ec.spo
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52595 cat number ec.spo catName: ec.spo
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52661 cat number ec.spo catName: ec.spo
+categoryTotal is 600 for catQ category:ec.spo 
+f1: 0.75954592360712936959 recall: 0.6133333333 precision: 0.9972899729
+Purity: 0.9972899728 Job: 1 
+Cluster 2 searching for:  gun  Found 270 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\53369 cat number alk.po catName: alk.po
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\53370 cat number alk.po catName: alk.po
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54723 cat number alk.po catName: alk.po
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54549 cat number alk.po catName: alk.po
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54155 cat number alk.po catName: alk.po
+categoryTotal is 546 for catQ category:alk.po 
+f1: 0.62009803923447231834 recall: 0.4633699634 precision: 0.9370370370
+Purity: 0.9370370361 Job: 1 
+Cluster 3 searching for:  key chip clipper  Found 509 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15658 cat number ci.cry catName: ci.cry
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15382 cat number ci.cry catName: ci.cry
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15642 cat number ci.cry catName: ci.cry
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15296 cat number ci.cry catName: ci.cry
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15350 cat number ci.cry catName: ci.cry
+categoryTotal is 595 for catQ category:ci.cry 
+f1: 0.84782608694173821151 recall: 0.7865546218 precision: 0.9194499018
+Purity: 0.9194498820 Job: 1 
+f1list: [0.81130355515365133550, 0.75954592360712936959, 0.62009803923447231834, 0.84782608694173821151] averagef1: :0.759693401234247808735
+PosHits: 1517 NegHits: 129 PosScore: 315.1511158430949 NegScore: 16.515573111362755 Fitness: 471.4297102545989 
+ TotalHits: 1579 Total Docs: 2340
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  gun  Found 270 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\53369 cat number alk.po catName: alk.po
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\53370 cat number alk.po catName: alk.po
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54723 cat number alk.po catName: alk.po
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54549 cat number alk.po catName: alk.po
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54155 cat number alk.po catName: alk.po
+categoryTotal is 546 for catQ category:alk.po 
+f1: 0.62009803923447231834 recall: 0.4633699634 precision: 0.9370370370
+Purity: 0.9370370361 Job: 2 
+Cluster 1 searching for:  chip key clipper  Found 509 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15658 cat number ci.cry catName: ci.cry
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15382 cat number ci.cry catName: ci.cry
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15642 cat number ci.cry catName: ci.cry
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15296 cat number ci.cry catName: ci.cry
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15350 cat number ci.cry catName: ci.cry
+categoryTotal is 595 for catQ category:ci.cry 
+f1: 0.84782608694173821151 recall: 0.7865546218 precision: 0.9194499018
+Purity: 0.9194498820 Job: 2 
+Cluster 2 searching for:  nhl players hockey  Found 369 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52658 cat number ec.spo catName: ec.spo
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53727 cat number ec.spo catName: ec.spo
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52623 cat number ec.spo catName: ec.spo
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52595 cat number ec.spo catName: ec.spo
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52661 cat number ec.spo catName: ec.spo
+categoryTotal is 600 for catQ category:ec.spo 
+f1: 0.75954592360712936959 recall: 0.6133333333 precision: 0.9972899729
+Purity: 0.9972899728 Job: 2 
+Cluster 3 searching for:  jesus god christians  Found 498 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20547 cat number oc.rel catName: oc.rel
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20671 cat number oc.rel catName: oc.rel
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20773 cat number oc.rel catName: oc.rel
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20848 cat number oc.rel catName: oc.rel
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20952 cat number oc.rel catName: oc.rel
+categoryTotal is 599 for catQ category:oc.rel 
+f1: 0.81130355515365133550 recall: 0.7429048414 precision: 0.8935742972
+Purity: 0.8935742845 Job: 2 
+f1list: [0.62009803923447231834, 0.84782608694173821151, 0.75954592360712936959, 0.81130355515365133550] averagef1: :0.759693401234247808735
+PosHits: 1517 NegHits: 129 PosScore: 315.1511158430949 NegScore: 16.515573111362755 Fitness: 471.4297102545989 
+ TotalHits: 1579 Total Docs: 2340
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  www.cs.utexas.edu www.cs.bu.edu www.cs.pitt.edu  Found 376 hits:
+0 path C:\Users\Laurie\Dataset\webkb\course\misc\http_^^www.cs.bu.edu^faculty^mcchen^cs320^ cat number course\ catName: course\
+1 path C:\Users\Laurie\Dataset\webkb\faculty\misc\http_^^www.cs.pitt.edu^~melhem^ cat number faculty catName: faculty
+2 path C:\Users\Laurie\Dataset\webkb\student\misc\http_^^www.cs.pitt.edu^~fahad^ cat number student catName: student
+3 path C:\Users\Laurie\Dataset\webkb\course\misc\http_^^www.cs.bu.edu^students^grads^tahir^CS113^ cat number course\ catName: course\
+4 path C:\Users\Laurie\Dataset\webkb\course\misc\http_^^www.cs.bu.edu^faculty^kfoury^CS520-Fall96^home.html cat number course\ catName: course\
+categoryTotal is 1641 for catQ category:student 
+f1: 0.19335646998214064930 recall: 0.1188299817 precision: 0.5186170213
+Purity: 0.5186170275 Job: 1 
+Cluster 1 searching for:  top homes www.cs.washington.edu  Found 967 hits:
+0 path C:\Users\Laurie\Dataset\webkb\student\washington\http_^^www.cs.washington.edu^homes^speed^ cat number student catName: student
+1 path C:\Users\Laurie\Dataset\webkb\student\washington\http_^^www.cs.washington.edu^homes^virgil^ cat number student catName: student
+2 path C:\Users\Laurie\Dataset\webkb\student\washington\http_^^www.cs.washington.edu^homes^kayee^ cat number student catName: student
+3 path C:\Users\Laurie\Dataset\webkb\student\washington\http_^^www.cs.washington.edu^homes^salisbur^ cat number student catName: student
+4 path C:\Users\Laurie\Dataset\webkb\student\washington\http_^^www.cs.washington.edu^homes^kgolden^ cat number student catName: student
+categoryTotal is 1641 for catQ category:student 
+f1: 0.33435582818478660516 recall: 0.2656916514 precision: 0.4508790072
+Purity: 0.4508790232 Job: 1 
+Cluster 2 searching for:  www.cs.cornell.edu www.cs.wisc.edu cs.wisc.edu  Found 577 hits:
+0 path C:\Users\Laurie\Dataset\webkb\student\wisconsin\http_^^www.cs.wisc.edu^~arvind^arvind.html cat number student catName: student
+1 path C:\Users\Laurie\Dataset\webkb\student\wisconsin\http_^^www.cs.wisc.edu^~markos^markos.html cat number student catName: student
+2 path C:\Users\Laurie\Dataset\webkb\student\wisconsin\http_^^www.cs.wisc.edu^~beyer^beyer.html cat number student catName: student
+3 path C:\Users\Laurie\Dataset\webkb\student\wisconsin\http_^^www.cs.wisc.edu^~alain^alain.html cat number student catName: student
+4 path C:\Users\Laurie\Dataset\webkb\student\wisconsin\http_^^www.cs.wisc.edu^~ireland^ireland.html cat number student catName: student
+categoryTotal is 1641 for catQ category:student 
+f1: 0.26059513079740344797 recall: 0.1761121268 precision: 0.5008665511
+Purity: 0.5008665647 Job: 1 
+Cluster 3 searching for:  www.cs.columbia.edu computational  Found 482 hits:
+0 path C:\Users\Laurie\Dataset\webkb\faculty\misc\http_^^www.cs.columbia.edu^~klavans^ cat number faculty catName: faculty
+1 path C:\Users\Laurie\Dataset\webkb\faculty\misc\http_^^www.cs.columbia.edu^~galil^ cat number faculty catName: faculty
+2 path C:\Users\Laurie\Dataset\webkb\student\misc\http_^^www.cs.columbia.edu^~shaw^ cat number student catName: student
+3 path C:\Users\Laurie\Dataset\webkb\course\misc\http_^^www.cs.columbia.edu^~wenyu^TA^W4241^ cat number course\ catName: course\
+4 path C:\Users\Laurie\Dataset\webkb\faculty\misc\http_^^www.cs.columbia.edu^~nayar^ cat number faculty catName: faculty
+categoryTotal is 1124 for catQ category:faculty 
+f1: 0.25778331260724121406 recall: 0.1841637011 precision: 0.4294605809
+Purity: 0.4294605816 Job: 1 
+f1list: [0.19335646998214064930, 0.33435582818478660516, 0.26059513079740344797, 0.25778331260724121406] averagef1: :0.2615226853928929791225
+PosHits: 1769 NegHits: 633 PosScore: 249.89978765137494 NegScore: 48.59768975060433 Fitness: 296.8562155361582 
+ TotalHits: 2073 Total Docs: 4199
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  ct rev qtr  Found 196 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000468.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000471.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000383.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000025.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000398.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3277591973 recall: 0.196 precision: 1
+Purity: 0.9999999968 Job: 1 
+Cluster 1 searching for:  tokyo ec gatt  Found 121 hits:
+0 path C:\Users\Laurie\Dataset\r5\trade\0004004.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\trade\0001062.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\trade\0006825.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\trade\0005434.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\trade\0001010.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2158786798 recall: 0.121 precision: 1
+Purity: 0.9999999988 Job: 1 
+Cluster 2 searching for:  sharehold stg london  Found 164 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006149.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0003306.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0003726.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0006087.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0006124.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2817869416 recall: 0.164 precision: 1
+Purity: 1.0000000040 Job: 1 
+Cluster 3 searching for:  secur reserv ecuador  Found 169 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0004179.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\crude\0001933.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\crude\0001991.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0002488.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0002527.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2891360137 recall: 0.169 precision: 1
+Purity: 1.0000000062 Job: 1 
+Cluster 4 searching for:  saudi blah  Found 124 hits:
+0 path C:\Users\Laurie\Dataset\r5\crude\0003577.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000414.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0006025.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\acq\0000209.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\acq\0000268.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2206405694 recall: 0.124 precision: 1
+Purity: 0.9999999964 Job: 1 
+f1list: [0.3277591973, 0.2158786798, 0.2817869416, 0.2891360137, 0.2206405694] averagef1: :0.26704028036
+PosHits: 593 NegHits: 181 PosScore: 160.04545025900006 NegScore: 24.93542305007577 Fitness: 363.3397084748596 
+ TotalHits: 679 Total Docs: 1000
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  monei london stg  Found 131 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006149.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0003726.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0006884.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0004113.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0006961.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2316534041 recall: 0.131 precision: 1
+Purity: 1.0000000018 Job: 2 
+Cluster 1 searching for:  blah  Found 89 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000414.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0006025.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\acq\0000209.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\acq\0000268.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\acq\0000279.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1634527089 recall: 0.089 precision: 1
+Purity: 1.0000000039 Job: 2 
+Cluster 2 searching for:  tariff trade ec  Found 285 hits:
+0 path C:\Users\Laurie\Dataset\r5\trade\0004106.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\trade\0004004.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\trade\0006825.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\trade\0005434.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\trade\0001142.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.4435797665 recall: 0.285 precision: 1
+Purity: 0.9999999915 Job: 2 
+Cluster 3 searching for:  rev common shr  Found 180 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000047.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000468.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000471.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000517.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000042.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3050847458 recall: 0.18 precision: 1
+Purity: 1.0000000080 Job: 2 
+Cluster 4 searching for:  fund pai  Found 141 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000359.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000360.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000361.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000363.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000364.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2471516214 recall: 0.141 precision: 1
+Purity: 1.0000000026 Job: 2 
+f1list: [0.2316534041, 0.1634527089, 0.4435797665, 0.3050847458, 0.2471516214] averagef1: :0.27818444934
+PosHits: 568 NegHits: 258 PosScore: 248.3385188281536 NegScore: 48.97839109133929 Fitness: 412.3597678829282 
+ TotalHits: 688 Total Docs: 1000
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  stake washington imports  Found 238 hits:
+0 path C:\Users\Laurie\Dataset\r5\acq\0000087.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\acq\0000112.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\acq\0000700.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\acq\0000857.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\acq\0000065.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3844911147 recall: 0.238 precision: 1
+Purity: 1.0000000066 Job: 1 
+Cluster 1 searching for:  pay record shareholders  Found 189 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000107.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000021.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000046.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000057.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000058.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3179142136 recall: 0.189 precision: 1
+Purity: 1.0000000017 Job: 1 
+Cluster 2 searching for:  money day stg  Found 197 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0002413.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0006149.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0003726.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0006961.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0006087.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3291562239 recall: 0.197 precision: 1
+Purity: 0.9999999937 Job: 1 
+Cluster 3 searching for:  1986 revs loss  Found 245 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000291.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000451.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000101.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000629.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000270.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3935742972 recall: 0.245 precision: 1
+Purity: 1.0000000115 Job: 1 
+Cluster 4 searching for:  blah  Found 89 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000414.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0006025.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\acq\0000209.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\acq\0000268.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\acq\0000279.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1634527089 recall: 0.089 precision: 1
+Purity: 1.0000000039 Job: 1 
+f1list: [0.3844911147, 0.3179142136, 0.3291562239, 0.3935742972, 0.1634527089] averagef1: :0.31771771166
+PosHits: 611 NegHits: 347 PosScore: 234.67303872667253 NegScore: 36.484705954790115 Fitness: 459.4086395688057 
+ TotalHits: 768 Total Docs: 1000
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  stock common securities  Found 165 hits:
+0 path C:\Users\Laurie\Dataset\r5\acq\0000065.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\acq\0000087.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\acq\0001070.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000154.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\acq\0000700.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2832618026 recall: 0.165 precision: 1
+Purity: 1.0000000065 Job: 2 
+Cluster 1 searching for:  blah says  Found 165 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006025.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\acq\0000209.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\acq\0000298.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\crude\0004286.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\crude\0005257.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2832618026 recall: 0.165 precision: 1
+Purity: 1.0000000065 Job: 2 
+Cluster 2 searching for:  trade exports pay  Found 345 hits:
+0 path C:\Users\Laurie\Dataset\r5\crude\0004302.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\trade\0005761.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\trade\0003619.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\trade\0001851.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\trade\0000190.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.5130111524 recall: 0.345 precision: 1
+Purity: 0.9999999915 Job: 2 
+Cluster 3 searching for:  qtr shr revs  Found 103 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000468.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000471.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000461.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000150.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000383.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1867633726 recall: 0.103 precision: 1
+Purity: 1.0000000037 Job: 2 
+Cluster 4 searching for:  money stg london  Found 131 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006149.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0003726.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0006884.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0004113.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0006961.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2316534041 recall: 0.131 precision: 1
+Purity: 1.0000000018 Job: 2 
+f1list: [0.2832618026, 0.2832618026, 0.5130111524, 0.1867633726, 0.2316534041] averagef1: :0.29959030686
+PosHits: 633 NegHits: 276 PosScore: 236.5286913588643 NegScore: 44.40127477236092 Fitness: 452.3853462720886 
+ TotalHits: 764 Total Docs: 1000
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  revs net -output  Found 126 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000468.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000471.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000140.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000459.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000009.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2238010657 recall: 0.126 precision: 1
+Purity: 0.9999999954 Job: 1 
+Cluster 1 searching for:  oil blah -profit  Found 277 hits:
+0 path C:\Users\Laurie\Dataset\r5\crude\0002067.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\crude\0002209.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\crude\0003577.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\crude\0004286.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\crude\0005257.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.4338292874 recall: 0.277 precision: 1
+Purity: 0.9999999991 Job: 1 
+Cluster 2 searching for:  told trade -crude  Found 288 hits:
+0 path C:\Users\Laurie\Dataset\r5\trade\0004725.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\trade\0000239.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\trade\0001701.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\trade\0003397.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\trade\0006693.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.4472049689 recall: 0.288 precision: 1
+Purity: 0.9999999936 Job: 1 
+Cluster 3 searching for:  pay -increase  Found 66 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000021.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000046.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000057.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000058.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000060.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1238273921 recall: 0.066 precision: 1
+Purity: 1.0000000032 Job: 1 
+Cluster 4 searching for:  common stg -january  Found 136 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006149.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0008848.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0007328.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0006087.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0006124.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2394366197 recall: 0.136 precision: 1
+Purity: 1.0000000032 Job: 1 
+f1list: [0.2238010657, 0.4338292874, 0.4472049689, 0.1238273921, 0.2394366197] averagef1: :0.29361986676
+PosHits: 683 NegHits: 210 PosScore: 228.18345899507403 NegScore: 36.72193389199674 Fitness: 464.88875873101875 
+ TotalHits: 786 Total Docs: 1000
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  oil blah  Found 287 hits:
+0 path C:\Users\Laurie\Dataset\r5\crude\0002067.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\crude\0002209.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\crude\0003577.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\crude\0004286.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\crude\0005257.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.4459984460 recall: 0.287 precision: 1
+Purity: 1.0000000122 Job: 2 
+Cluster 1 searching for:  securities pay -1986  Found 116 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000365.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\acq\0000314.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000021.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000046.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000057.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2078853047 recall: 0.116 precision: 1
+Purity: 1.0000000052 Job: 2 
+Cluster 2 searching for:  told trade -petroleum  Found 300 hits:
+0 path C:\Users\Laurie\Dataset\r5\trade\0004725.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\trade\0000239.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\trade\0001701.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\trade\0003397.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\trade\0006693.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.4615384615 recall: 0.3 precision: 1
+Purity: 0.9999999900 Job: 2 
+Cluster 3 searching for:  stg london -report  Found 92 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006149.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0003306.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0003726.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0006087.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0006124.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1684981685 recall: 0.092 precision: 1
+Purity: 0.9999999984 Job: 2 
+Cluster 4 searching for:  net revs -official  Found 125 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000468.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000471.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000140.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000459.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000009.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2222222222 recall: 0.125 precision: 1
+Purity: 1.000 Job: 2 
+f1list: [0.4459984460, 0.2078853047, 0.4615384615, 0.1684981685, 0.2222222222] averagef1: :0.30122852058
+PosHits: 661 NegHits: 259 PosScore: 241.3626314662397 NegScore: 40.98656954430044 Fitness: 471.2952086087223 
+ TotalHits: 785 Total Docs: 1000
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  oil merger -tariffs  Found 237 hits:
+0 path C:\Users\Laurie\Dataset\r5\acq\0001204.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\crude\0004256.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\acq\0000090.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\acq\0001088.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\acq\0001166.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3831851253 recall: 0.237 precision: 1
+Purity: 1.0000000041 Job: 1 
+Cluster 1 searching for:  net revs -official  Found 125 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000468.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000471.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000140.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000459.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000009.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2222222222 recall: 0.125 precision: 1
+Purity: 1.000 Job: 1 
+Cluster 2 searching for:  trade -crude  Found 233 hits:
+0 path C:\Users\Laurie\Dataset\r5\trade\0003139.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\trade\0001851.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\trade\0000754.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\trade\0001471.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\trade\0001685.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.3779399838 recall: 0.233 precision: 1
+Purity: 1.0000000015 Job: 1 
+Cluster 3 searching for:  stg money -exports  Found 94 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006149.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0003726.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0006961.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0006087.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0006124.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1718464351 recall: 0.094 precision: 1
+Purity: 1.0000000026 Job: 1 
+Cluster 4 searching for:  pay -today  Found 61 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000021.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000046.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000057.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000058.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000060.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1149858624 recall: 0.061 precision: 1
+Purity: 0.9999999986 Job: 1 
+f1list: [0.3831851253, 0.2222222222, 0.3779399838, 0.1718464351, 0.1149858624] averagef1: :0.25403592576
+PosHits: 636 NegHits: 114 PosScore: 248.14751537889242 NegScore: 19.784289456903934 Fitness: 434.827352338016 
+ TotalHits: 692 Total Docs: 1000
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  revs net -official  Found 125 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000468.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000471.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000140.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000459.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000009.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2222222222 recall: 0.125 precision: 1
+Purity: 1.000 Job: 2 
+Cluster 1 searching for:  record committee -billion  Found 135 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0009046.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\earn\0000021.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\earn\0000034.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\earn\0000046.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\earn\0000057.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2378854626 recall: 0.135 precision: 1
+Purity: 0.9999999990 Job: 2 
+Cluster 2 searching for:  blah -investment  Found 89 hits:
+0 path C:\Users\Laurie\Dataset\r5\earn\0000414.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0006025.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\acq\0000209.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\acq\0000268.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\acq\0000279.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.1634527089 recall: 0.089 precision: 1
+Purity: 1.0000000039 Job: 2 
+Cluster 3 searching for:  exports imports  Found 161 hits:
+0 path C:\Users\Laurie\Dataset\r5\trade\0005761.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\trade\0000190.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\trade\0003222.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\trade\0003453.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\trade\0003655.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.2773471146 recall: 0.161 precision: 1
+Purity: 0.9999999961 Job: 2 
+Cluster 4 searching for:  london market  Found 257 hits:
+0 path C:\Users\Laurie\Dataset\r5\money-fx\0006884.txt cat number  catName: 
+1 path C:\Users\Laurie\Dataset\r5\money-fx\0004919.txt cat number  catName: 
+2 path C:\Users\Laurie\Dataset\r5\money-fx\0009024.txt cat number  catName: 
+3 path C:\Users\Laurie\Dataset\r5\money-fx\0003726.txt cat number  catName: 
+4 path C:\Users\Laurie\Dataset\r5\money-fx\0004113.txt cat number  catName: 
+categoryTotal is 1000 for catQ category: 
+f1: 0.4089101034 recall: 0.257 precision: 1
+Purity: 1.0000000042 Job: 2 
+f1list: [0.2222222222, 0.2378854626, 0.1634527089, 0.2773471146, 0.4089101034] averagef1: :0.26196352234
+PosHits: 580 NegHits: 187 PosScore: 271.35782503709197 NegScore: 26.871810983866453 Fitness: 432.45011542971434 
+ TotalHits: 671 Total Docs: 1000
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  sale apple -privacy  Found 559 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76209 cat number sc.for catName: sc.for
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76406 cat number sc.for catName: sc.for
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\50431 cat number mp.sys catName: mp.sys
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75843 cat number sc.for catName: sc.for
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\74761 cat number sc.for catName: sc.for
+categoryTotal is 585 for catQ category:sc.for 
+f1: 0.62762237764994834711 recall: 0.6136752137 precision: 0.6422182469
+Purity: 0.6422182592 Job: 1 
+Cluster 1 searching for:  clipper key -season  Found 489 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15382 cat number i.cryp catName: i.cryp
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15350 cat number i.cryp catName: i.cryp
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15215 cat number i.cryp catName: i.cryp
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15267 cat number i.cryp catName: i.cryp
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15301 cat number i.cryp catName: i.cryp
+categoryTotal is 595 for catQ category:i.cryp 
+f1: 0.83394833944614009885 recall: 0.7596638655 precision: 0.9243353783
+Purity: 0.9243353896 Job: 1 
+Cluster 2 searching for:  serdar turkish  Found 157 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76160 cat number lk.pol catName: lk.pol
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76323 cat number lk.pol catName: lk.pol
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76161 cat number lk.pol catName: lk.pol
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75928 cat number lk.pol catName: lk.pol
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75987 cat number lk.pol catName: lk.pol
+categoryTotal is 564 for catQ category:lk.pol 
+f1: 0.4355062413 recall: 0.2783687943 precision: 1
+Purity: 1.0000000076 Job: 1 
+Cluster 3 searching for:  israel israeli -armenian  Found 268 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76197 cat number lk.pol catName: lk.pol
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76216 cat number lk.pol catName: lk.pol
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76286 cat number lk.pol catName: lk.pol
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76006 cat number lk.pol catName: lk.pol
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75885 cat number lk.pol catName: lk.pol
+categoryTotal is 564 for catQ category:lk.pol 
+f1: 0.64182692305591715976 recall: 0.4734042553 precision: 0.9962686567
+Purity: 0.9962686611 Job: 1 
+Cluster 4 searching for:  win hockey -secure  Found 323 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53663 cat number c.spor catName: c.spor
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53621 cat number c.spor catName: c.spor
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53647 cat number c.spor catName: c.spor
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53620 cat number c.spor catName: c.spor
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\54055 cat number c.spor catName: c.spor
+categoryTotal is 600 for catQ category:c.spor 
+f1: 0.66088840733410460261 recall: 0.5083333333 precision: 0.9442724458
+Purity: 0.9442724360 Job: 1 
+f1list: [0.62762237764994834711, 0.83394833944614009885, 0.4355062413, 0.64182692305591715976, 0.66088840733410460261] averagef1: :0.639958457757222041666
+PosHits: 1692 NegHits: 104 PosScore: 359.925445987843 NegScore: 12.940228529274464 Fitness: 445.58358450684244 
+ TotalHits: 1743 Total Docs: 2922
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  clipper encryption -national  Found 349 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15470 cat number i.cryp catName: i.cryp
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15185 cat number i.cryp catName: i.cryp
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15458 cat number i.cryp catName: i.cryp
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15192 cat number i.cryp catName: i.cryp
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15551 cat number i.cryp catName: i.cryp
+categoryTotal is 595 for catQ category:i.cryp 
+f1: 0.73728813561276954359 recall: 0.5848739496 precision: 0.9971346705
+Purity: 0.9971346660 Job: 1 
+Cluster 1 searching for:  sale -encryption  Found 380 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75872 cat number sc.for catName: sc.for
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75914 cat number sc.for catName: sc.for
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75977 cat number sc.for catName: sc.for
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76514 cat number sc.for catName: sc.for
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75860 cat number sc.for catName: sc.for
+categoryTotal is 585 for catQ category:sc.for 
+f1: 0.73575129530424977852 recall: 0.6068376068 precision: 0.9342105263
+Purity: 0.9342105095 Job: 1 
+Cluster 2 searching for:  israel israeli -armenia  Found 266 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76197 cat number lk.pol catName: lk.pol
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76216 cat number lk.pol catName: lk.pol
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76286 cat number lk.pol catName: lk.pol
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76006 cat number lk.pol catName: lk.pol
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75885 cat number lk.pol catName: lk.pol
+categoryTotal is 564 for catQ category:lk.pol 
+f1: 0.63855421684049934678 recall: 0.4698581560 precision: 0.9962406015
+Purity: 0.9962406025 Job: 1 
+Cluster 3 searching for:  team hockey -offer  Found 383 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53729 cat number c.spor catName: c.spor
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53568 cat number c.spor catName: c.spor
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\52648 cat number c.spor catName: c.spor
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53921 cat number c.spor catName: c.spor
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53643 cat number c.spor catName: c.spor
+categoryTotal is 600 for catQ category:c.spor 
+f1: 0.73041709050782819633 recall: 0.5983333333 precision: 0.9373368146
+Purity: 0.9373368299 Job: 1 
+Cluster 4 searching for:  turkish apple -team  Found 330 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76142 cat number lk.pol catName: lk.pol
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76294 cat number lk.pol catName: lk.pol
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76323 cat number lk.pol catName: lk.pol
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76495 cat number lk.pol catName: lk.pol
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76014 cat number lk.pol catName: lk.pol
+categoryTotal is 578 for catQ category:mp.sys 
+f1: 0.37444933925322730889 recall: 0.2941176471 precision: 0.5151515152
+Purity: 0.5151515100 Job: 1 
+f1list: [0.73728813561276954359, 0.73575129530424977852, 0.63855421684049934678, 0.73041709050782819633, 0.37444933925322730889] averagef1: :0.643292015503714834822
+PosHits: 1634 NegHits: 74 PosScore: 420.7206771215424 NegScore: 14.52462363243103 Fitness: 461.03819489024954 
+ TotalHits: 1671 Total Docs: 2922
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  israeli israel -n  Found 273 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76197 cat number lk.pol catName: lk.pol
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76216 cat number lk.pol catName: lk.pol
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76286 cat number lk.pol catName: lk.pol
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76006 cat number lk.pol catName: lk.pol
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75885 cat number lk.pol catName: lk.pol
+categoryTotal is 564 for catQ category:lk.pol 
+f1: 0.64994026279375393430 recall: 0.4822695035 precision: 0.9963369963
+Purity: 0.9963370064 Job: 2 
+Cluster 1 searching for:  team nhl  Found 357 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53979 cat number c.spor catName: c.spor
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53738 cat number c.spor catName: c.spor
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53743 cat number c.spor catName: c.spor
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\52572 cat number c.spor catName: c.spor
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53821 cat number c.spor catName: c.spor
+categoryTotal is 600 for catQ category:c.spor 
+f1: 0.69801462907757785399 recall: 0.5566666667 precision: 0.9355742297
+Purity: 0.9355742136 Job: 2 
+Cluster 2 searching for:  armenians apple -encryption  Found 296 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76073 cat number lk.pol catName: lk.pol
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76119 cat number lk.pol catName: lk.pol
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76527 cat number lk.pol catName: lk.pol
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76232 cat number lk.pol catName: lk.pol
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51632 cat number mp.sys catName: mp.sys
+categoryTotal is 578 for catQ category:mp.sys 
+f1: 0.38901601833707355644 recall: 0.2941176471 precision: 0.5743243243
+Purity: 0.5743243280 Job: 2 
+Cluster 3 searching for:  key clipper -team  Found 471 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15382 cat number i.cryp catName: i.cryp
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15350 cat number i.cryp catName: i.cryp
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15215 cat number i.cryp catName: i.cryp
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15267 cat number i.cryp catName: i.cryp
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15301 cat number i.cryp catName: i.cryp
+categoryTotal is 595 for catQ category:i.cryp 
+f1: 0.83302063788790167870 recall: 0.7462184874 precision: 0.9426751592
+Purity: 0.9426751812 Job: 2 
+Cluster 4 searching for:  sale -team  Found 373 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75872 cat number sc.for catName: sc.for
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75914 cat number sc.for catName: sc.for
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75977 cat number sc.for catName: sc.for
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76514 cat number sc.for catName: sc.for
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75860 cat number sc.for catName: sc.for
+categoryTotal is 585 for catQ category:sc.for 
+f1: 0.73695198329939047511 recall: 0.6034188034 precision: 0.9463806971
+Purity: 0.9463806803 Job: 2 
+f1list: [0.64994026279375393430, 0.69801462907757785399, 0.38901601833707355644, 0.83302063788790167870, 0.73695198329939047511] averagef1: :0.661388706279139499708
+PosHits: 1673 NegHits: 97 PosScore: 423.3484776811674 NegScore: 15.76776328869164 Fitness: 475.64901078453596 
+ TotalHits: 1721 Total Docs: 2922
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  hockey win team  Found 442 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53645 cat number .sport.hockey\ catName: .sport.hockey\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53663 cat number .sport.hockey\ catName: .sport.hockey\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53826 cat number .sport.hockey\ catName: .sport.hockey\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53757 cat number .sport.hockey\ catName: .sport.hockey\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53750 cat number .sport.hockey\ catName: .sport.hockey\
+categoryTotal is 600 for catQ category:.sport.hockey\ 
+f1: 0.76967370439085473455 recall: 0.6683333333 precision: 0.9072398190
+Purity: 0.9072398034 Job: 1 
+Cluster 1 searching for:  sale  Found 381 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75872 cat number c.forsale\ catName: c.forsale\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75914 cat number c.forsale\ catName: c.forsale\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75977 cat number c.forsale\ catName: c.forsale\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76514 cat number c.forsale\ catName: c.forsale\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75860 cat number c.forsale\ catName: c.forsale\
+categoryTotal is 585 for catQ category:c.forsale\ 
+f1: 0.73498964801060530072 recall: 0.6068376068 precision: 0.9317585302
+Purity: 0.9317585245 Job: 1 
+Cluster 2 searching for:  apple heard  Found 351 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51936 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51669 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\50486 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51836 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51889 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+categoryTotal is 578 for catQ category:p.sys.mac.hardware 
+f1: 0.41980624327377355189 recall: 0.3373702422 precision: 0.5555555556
+Purity: 0.5555555460 Job: 1 
+Cluster 3 searching for:  clipper keys encryption  Found 458 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15440 cat number .crypt\ catName: .crypt\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15458 cat number .crypt\ catName: .crypt\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15233 cat number .crypt\ catName: .crypt\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15279 cat number .crypt\ catName: .crypt\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15351 cat number .crypt\ catName: .crypt\
+categoryTotal is 595 for catQ category:.crypt\ 
+f1: 0.83760683762575051249 recall: 0.7411764706 precision: 0.9628820961
+Purity: 0.9628820901 Job: 1 
+Cluster 4 searching for:  turkish israeli armenia  Found 355 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76142 cat number k.politics.mideast catName: k.politics.mideast
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75916 cat number k.politics.mideast catName: k.politics.mideast
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76495 cat number k.politics.mideast catName: k.politics.mideast
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76024 cat number k.politics.mideast catName: k.politics.mideast
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76323 cat number k.politics.mideast catName: k.politics.mideast
+categoryTotal is 564 for catQ category:k.politics.mideast 
+f1: 0.7725788901 recall: 0.6294326241 precision: 1
+Purity: 0.9999999970 Job: 1 
+f1list: [0.76967370439085473455, 0.73498964801060530072, 0.41980624327377355189, 0.83760683762575051249, 0.7725788901] averagef1: :0.70693106468019681993
+PosHits: 1642 NegHits: 345 PosScore: 345.8817732753232 NegScore: 40.39451377373189 Fitness: 437.00613953501113 
+ TotalHits: 1810 Total Docs: 2922
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  serdar turkish argic  Found 164 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76161 cat number k.politics.mideast catName: k.politics.mideast
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76160 cat number k.politics.mideast catName: k.politics.mideast
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75987 cat number k.politics.mideast catName: k.politics.mideast
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76186 cat number k.politics.mideast catName: k.politics.mideast
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76201 cat number k.politics.mideast catName: k.politics.mideast
+categoryTotal is 564 for catQ category:k.politics.mideast 
+f1: 0.4505494505 recall: 0.2907801418 precision: 1
+Purity: 1.0000000040 Job: 2 
+Cluster 1 searching for:  heard apple  Found 351 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51936 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51669 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\50486 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51836 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51889 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+categoryTotal is 578 for catQ category:p.sys.mac.hardware 
+f1: 0.41980624327377355189 recall: 0.3373702422 precision: 0.5555555556
+Purity: 0.5555555460 Job: 2 
+Cluster 2 searching for:  israeli encryption clipper  Found 608 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15470 cat number .crypt\ catName: .crypt\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15185 cat number .crypt\ catName: .crypt\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15458 cat number .crypt\ catName: .crypt\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15192 cat number .crypt\ catName: .crypt\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15551 cat number .crypt\ catName: .crypt\
+categoryTotal is 595 for catQ category:.crypt\ 
+f1: 0.663341645888165 recall: 0.6705882353 precision: 0.65625
+Purity: 0.6562499832 Job: 2 
+Cluster 3 searching for:  sale  Found 381 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75872 cat number c.forsale\ catName: c.forsale\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75914 cat number c.forsale\ catName: c.forsale\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75977 cat number c.forsale\ catName: c.forsale\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76514 cat number c.forsale\ catName: c.forsale\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75860 cat number c.forsale\ catName: c.forsale\
+categoryTotal is 585 for catQ category:c.forsale\ 
+f1: 0.73498964801060530072 recall: 0.6068376068 precision: 0.9317585302
+Purity: 0.9317585245 Job: 2 
+Cluster 4 searching for:  hockey win  Found 325 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53663 cat number .sport.hockey\ catName: .sport.hockey\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53621 cat number .sport.hockey\ catName: .sport.hockey\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53647 cat number .sport.hockey\ catName: .sport.hockey\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53620 cat number .sport.hockey\ catName: .sport.hockey\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\54055 cat number .sport.hockey\ catName: .sport.hockey\
+categoryTotal is 600 for catQ category:.sport.hockey\ 
+f1: 0.65945945944090577063 recall: 0.5083333333 precision: 0.9384615385
+Purity: 0.9384615455 Job: 2 
+f1list: [0.4505494505, 0.41980624327377355189, 0.663341645888165, 0.73498964801060530072, 0.65945945944090577063] averagef1: :0.585629289422689924648
+PosHits: 1552 NegHits: 277 PosScore: 324.8067275537178 NegScore: 33.88381702452898 Fitness: 399.3733045231493 
+ TotalHits: 1689 Total Docs: 2922
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  armenia apple turkish  Found 344 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76142 cat number k.politics.mideast catName: k.politics.mideast
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75916 cat number k.politics.mideast catName: k.politics.mideast
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76495 cat number k.politics.mideast catName: k.politics.mideast
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76323 cat number k.politics.mideast catName: k.politics.mideast
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75948 cat number k.politics.mideast catName: k.politics.mideast
+categoryTotal is 578 for catQ category:p.sys.mac.hardware 
+f1: 0.36876355751285849398 recall: 0.2941176471 precision: 0.4941860465
+Purity: 0.4941860390 Job: 1 
+Cluster 1 searching for:  clipper encryption escrow  Found 420 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15291 cat number .crypt\ catName: .crypt\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15371 cat number .crypt\ catName: .crypt\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15296 cat number .crypt\ catName: .crypt\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15486 cat number .crypt\ catName: .crypt\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15267 cat number .crypt\ catName: .crypt\
+categoryTotal is 595 for catQ category:.crypt\ 
+f1: 0.82364532018168846611 recall: 0.7025210084 precision: 0.9952380952
+Purity: 0.9952381032 Job: 1 
+Cluster 2 searching for:  israeli israel  Found 276 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76197 cat number k.politics.mideast catName: k.politics.mideast
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76216 cat number k.politics.mideast catName: k.politics.mideast
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76286 cat number k.politics.mideast catName: k.politics.mideast
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76006 cat number k.politics.mideast catName: k.politics.mideast
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75885 cat number k.politics.mideast catName: k.politics.mideast
+categoryTotal is 564 for catQ category:k.politics.mideast 
+f1: 0.65476190477914285714 recall: 0.4875886525 precision: 0.9963768116
+Purity: 0.9963768100 Job: 1 
+Cluster 3 searching for:  sale  Found 381 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75872 cat number c.forsale\ catName: c.forsale\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75914 cat number c.forsale\ catName: c.forsale\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75977 cat number c.forsale\ catName: c.forsale\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76514 cat number c.forsale\ catName: c.forsale\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\75860 cat number c.forsale\ catName: c.forsale\
+categoryTotal is 585 for catQ category:c.forsale\ 
+f1: 0.73498964801060530072 recall: 0.6068376068 precision: 0.9317585302
+Purity: 0.9317585245 Job: 1 
+Cluster 4 searching for:  win hockey team  Found 442 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53645 cat number .sport.hockey\ catName: .sport.hockey\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53663 cat number .sport.hockey\ catName: .sport.hockey\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53826 cat number .sport.hockey\ catName: .sport.hockey\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53757 cat number .sport.hockey\ catName: .sport.hockey\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53750 cat number .sport.hockey\ catName: .sport.hockey\
+categoryTotal is 600 for catQ category:.sport.hockey\ 
+f1: 0.76967370439085473455 recall: 0.6683333333 precision: 0.9072398190
+Purity: 0.9072398034 Job: 1 
+f1list: [0.36876355751285849398, 0.82364532018168846611, 0.65476190477914285714, 0.73498964801060530072, 0.76967370439085473455] averagef1: :0.67036682697502997050
+PosHits: 1724 NegHits: 139 PosScore: 404.53024886827916 NegScore: 20.207763758488 Fitness: 481.2765968103413 
+ TotalHits: 1793 Total Docs: 2922
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  israeli israel  Found 276 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76197 cat number k.politics.mideast catName: k.politics.mideast
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76216 cat number k.politics.mideast catName: k.politics.mideast
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76286 cat number k.politics.mideast catName: k.politics.mideast
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76006 cat number k.politics.mideast catName: k.politics.mideast
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75885 cat number k.politics.mideast catName: k.politics.mideast
+categoryTotal is 564 for catQ category:k.politics.mideast 
+f1: 0.65476190477914285714 recall: 0.4875886525 precision: 0.9963768116
+Purity: 0.9963768100 Job: 2 
+Cluster 1 searching for:  encryption clipper keys  Found 458 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15440 cat number .crypt\ catName: .crypt\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15458 cat number .crypt\ catName: .crypt\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15233 cat number .crypt\ catName: .crypt\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15279 cat number .crypt\ catName: .crypt\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\sci.crypt\15351 cat number .crypt\ catName: .crypt\
+categoryTotal is 595 for catQ category:.crypt\ 
+f1: 0.83760683762575051249 recall: 0.7411764706 precision: 0.9628820961
+Purity: 0.9628820901 Job: 2 
+Cluster 2 searching for:  armenia armenians turkish  Found 156 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76495 cat number k.politics.mideast catName: k.politics.mideast
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76527 cat number k.politics.mideast catName: k.politics.mideast
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75928 cat number k.politics.mideast catName: k.politics.mideast
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\75948 cat number k.politics.mideast catName: k.politics.mideast
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\talk.politics.mideast\76523 cat number k.politics.mideast catName: k.politics.mideast
+categoryTotal is 564 for catQ category:k.politics.mideast 
+f1: 0.4333333334 recall: 0.2765957447 precision: 1
+Purity: 0.9999999984 Job: 2 
+Cluster 3 searching for:  team hockey nhl  Found 439 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53979 cat number .sport.hockey\ catName: .sport.hockey\
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53729 cat number .sport.hockey\ catName: .sport.hockey\
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53743 cat number .sport.hockey\ catName: .sport.hockey\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\52602 cat number .sport.hockey\ catName: .sport.hockey\
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\rec.sport.hockey\53867 cat number .sport.hockey\ catName: .sport.hockey\
+categoryTotal is 600 for catQ category:.sport.hockey\ 
+f1: 0.79307025987195265307 recall: 0.6866666667 precision: 0.9384965831
+Purity: 0.9384965716 Job: 2 
+Cluster 4 searching for:  apple sale mac  Found 717 hits:
+0 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51706 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+1 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51864 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+2 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\misc.forsale\76440 cat number c.forsale\ catName: c.forsale\
+3 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51616 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+4 path C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast\comp.sys.mac.hardware\51786 cat number p.sys.mac.hardware catName: p.sys.mac.hardware
+categoryTotal is 585 for catQ category:c.forsale\ 
+f1: 0.56221198152234067404 recall: 0.6256410256 precision: 0.5104602510
+Purity: 0.5104602366 Job: 2 
+f1list: [0.65476190477914285714, 0.83760683762575051249, 0.4333333334, 0.79307025987195265307, 0.56221198152234067404] averagef1: :0.656196863439837339348
+PosHits: 1919 NegHits: 127 PosScore: 377.570920038037 NegScore: 17.055820552632213 Fitness: 515.599045914273 
+ TotalHits: 1981 Total Docs: 2922
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  case lesions due report  Found 497 hits:
+0 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C01\0017062 cat number  catName: 
+1 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0017062 cat number  catName: 
+2 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0011736 cat number  catName: 
+3 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0001347 cat number  catName: 
+4 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0015796 cat number  catName: 
+categoryTotal is 1738 for catQ category: 
+f1: 0.4447427293 recall: 0.2859608746 precision: 1
+Purity: 0.9999999828 Job: 1 
+Cluster 1 searching for:  hepatitis 12 cells subjects  Found 441 hits:
+0 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0010429 cat number  catName: 
+1 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0019244 cat number  catName: 
+2 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0010430 cat number  catName: 
+3 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0014096 cat number  catName: 
+4 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0017083 cat number  catName: 
+categoryTotal is 1738 for catQ category: 
+f1: 0.4047728316 recall: 0.2537399310 precision: 1
+Purity: 1.0000000017 Job: 1 
+Cluster 2 searching for:  pressure complications respiratory care  Found 470 hits:
+0 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C01\0013822 cat number  catName: 
+1 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C06\0013822 cat number  catName: 
+2 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C08\0013822 cat number  catName: 
+3 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C08\0013662 cat number  catName: 
+4 path C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C08\0012629 cat number  catName: 
+categoryTotal is 1738 for catQ category: 
+f1: 0.4257246377 recall: 0.2704257768 precision: 1
+Purity: 1.0000000120 Job: 1 
+f1list: [0.4447427293, 0.4047728316, 0.4257246377] averagef1: :0.4250800662
+PosHits: 881 NegHits: 527 PosScore: 77.40672204643488 NegScore: 26.344247648492455 Fitness: 293.7875264849944 
+ TotalHits: 1132 Total Docs: 1738
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  fire colorado springs  Found 874 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.83180722888929607200 recall: 0.7185678601 precision: 0.9874141876
+Purity: 0.9874142224 Job: 1 
+Cluster 1 searching for:  qldfloods flood floods morning bigwet  Found 967 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.88284132841144915646 recall: 0.7968359700 precision: 0.9896587384
+Purity: 0.9896587734 Job: 1 
+f1list: [0.83180722888929607200, 0.88284132841144915646] averagef1: :0.85732427865037261423
+PosHits: 1823 NegHits: 18 PosScore: 414.4616512954235 NegScore: 2.8868212029337883 Fitness: 618.9862984101663 
+ TotalHits: 1832 Total Docs: 2402
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  flooding bigwet queensland qldfloods qld  Found 973 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.89420423182310774910 recall: 0.8093255620 precision: 0.9989722508
+Purity: 0.9989722224 Job: 2 
+Cluster 1 searching for:  highparkfire colorado springs fire  Found 1002 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.89968225147628972913 recall: 0.8251457119 precision: 0.9890219561
+Purity: 0.9890219640 Job: 2 
+f1list: [0.89420423182310774910, 0.89968225147628972913] averagef1: :0.896943241649698739115
+PosHits: 1967 NegHits: 8 PosScore: 341.3098422456533 NegScore: 1.1350726522505283 Fitness: 607.3623941722252 
+ TotalHits: 1971 Total Docs: 2402
+************************************************ 
+  
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  colorado  Found 805 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.8025922233 recall: 0.6702747710 precision: 1
+Purity: 0.9999999800 Job: 1 
+Cluster 1 searching for:  qldfloods flood flooding bigwet highparkfire floods  Found 1202 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.87473990841435703637 recall: 0.8751040799 precision: 0.8743760399
+Purity: 0.8743760868 Job: 1 
+f1list: [0.8025922233, 0.87473990841435703637] averagef1: :0.838666065857178518185
+PosHits: 1987 NegHits: 20 PosScore: 591.1909949295223 NegScore: 6.068061038851738 Fitness: 819.0218563513027 
+ TotalHits: 1997 Total Docs: 2402
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  qldfloods highparkfire australia queensland bigwet qld  Found 1169 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.86160337551087642650 recall: 0.8501248959 precision: 0.8733960650
+Purity: 0.8733960720 Job: 2 
+Cluster 1 searching for:  colorado  Found 805 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.8025922233 recall: 0.6702747710 precision: 1
+Purity: 0.9999999800 Job: 2 
+f1list: [0.86160337551087642650, 0.8025922233] averagef1: :0.83209779940543821325
+PosHits: 1958 NegHits: 16 PosScore: 591.5908997021616 NegScore: 4.800682544708252 Fitness: 807.6725924242285 
+ TotalHits: 1966 Total Docs: 2402
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  year  Found 295 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52574 cat number ec.spo catName: ec.spo
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53537 cat number ec.spo catName: ec.spo
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53806 cat number ec.spo catName: ec.spo
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54289 cat number alk.po catName: alk.po
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53887 cat number ec.spo catName: ec.spo
+categoryTotal is 600 for catQ category_name:ec.spo 
+f1: 0.35307262565989201336 recall: 0.2633333333 precision: 0.5355932203
+Purity: 0.5355932190 Job: 1 
+Cluster 1 searching for:  8 usa  Found 480 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54315 cat number alk.po catName: alk.po
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54504 cat number alk.po catName: alk.po
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15416 cat number ci.cry catName: ci.cry
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54287 cat number alk.po catName: alk.po
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53777 cat number ec.spo catName: ec.spo
+categoryTotal is 546 for catQ category_name:alk.po 
+f1: 0.32553606241495844875 recall: 0.3058608059 precision: 0.3479166667
+Purity: 0.3479166611 Job: 1 
+Cluster 2 searching for:  either jesus  Found 424 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20492 cat number oc.rel catName: oc.rel
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20814 cat number oc.rel catName: oc.rel
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20717 cat number oc.rel catName: oc.rel
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20873 cat number oc.rel catName: oc.rel
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20570 cat number oc.rel catName: oc.rel
+categoryTotal is 599 for catQ category_name:oc.rel 
+f1: 0.46138807429270837215 recall: 0.3939899833 precision: 0.5566037736
+Purity: 0.5566037816 Job: 1 
+Cluster 3 searching for:  bill message netcom.com  Found 473 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15261 cat number ci.cry catName: ci.cry
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15695 cat number ci.cry catName: ci.cry
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15475 cat number ci.cry catName: ci.cry
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15425 cat number ci.cry catName: ci.cry
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54401 cat number alk.po catName: alk.po
+categoryTotal is 595 for catQ category_name:ci.cry 
+f1: 0.41385767789483826397 recall: 0.3714285714 precision: 0.4672304440
+Purity: 0.4672304429 Job: 1 
+f1list: [0.35307262565989201336, 0.32553606241495844875, 0.46138807429270837215, 0.41385767789483826397] averagef1: :0.3884636100655992745575
+PosHits: 936 NegHits: 736 PosScore: 119.5867014862597 NegScore: 68.398187299259 Fitness: 1.7339729526879784 
+ TotalHits: 1268 Total Docs: 2340
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  bit gun news  Found 608 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54247 cat number alk.po catName: alk.po
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54723 cat number alk.po catName: alk.po
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\53370 cat number alk.po catName: alk.po
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54503 cat number alk.po catName: alk.po
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54549 cat number alk.po catName: alk.po
+categoryTotal is 546 for catQ category_name:alk.po 
+f1: 0.52166377818555728098 recall: 0.5512820513 precision: 0.4950657895
+Purity: 0.4950657768 Job: 2 
+Cluster 1 searching for:  clipper  Found 316 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15185 cat number ci.cry catName: ci.cry
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15470 cat number ci.cry catName: ci.cry
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15224 cat number ci.cry catName: ci.cry
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15458 cat number ci.cry catName: ci.cry
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15726 cat number ci.cry catName: ci.cry
+categoryTotal is 595 for catQ category_name:ci.cry 
+f1: 0.68715697038613217403 recall: 0.5260504202 precision: 0.9905063291
+Purity: 0.9905063410 Job: 2 
+Cluster 2 searching for:  players  Found 136 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52658 cat number ec.spo catName: ec.spo
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53727 cat number ec.spo catName: ec.spo
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\52652 cat number ec.spo catName: ec.spo
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\54180 cat number ec.spo catName: ec.spo
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\54199 cat number ec.spo catName: ec.spo
+categoryTotal is 600 for catQ category_name:ec.spo 
+f1: 0.3668478260853 recall: 0.225 precision: 0.9926470588
+Purity: 0.9926470620 Job: 2 
+Cluster 3 searching for:  point possible  Found 559 hits:
+0 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\53744 cat number ec.spo catName: ec.spo
+1 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\talk.politics.guns\54281 cat number alk.po catName: alk.po
+2 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\soc.religion.christian\20654 cat number oc.rel catName: oc.rel
+3 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\rec.sport.hockey\54361 cat number ec.spo catName: ec.spo
+4 path C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey\sci.crypt\15234 cat number ci.cry catName: ci.cry
+categoryTotal is 599 for catQ category_name:oc.rel 
+f1: 0.29533678755859799368 recall: 0.2854757930 precision: 0.3059033989
+Purity: 0.3059034048 Job: 2 
+f1list: [0.52166377818555728098, 0.68715697038613217403, 0.3668478260853, 0.29533678755859799368] averagef1: :0.4677513405538968621725
+PosHits: 885 NegHits: 734 PosScore: 136.61801698524505 NegScore: 91.3446932202205 Fitness: 1.5550667390549953 
+ TotalHits: 1234 Total Docs: 2340
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  lax  Found 757 hits:
+0 path null cat number LAshooting catName: LAshooting
+1 path null cat number LAshooting catName: LAshooting
+2 path null cat number LAshooting catName: LAshooting
+3 path null cat number LAshooting catName: LAshooting
+4 path null cat number LAshooting catName: LAshooting
+categoryTotal is 1033 for catQ category_name:LAshooting 
+f1: 0.8458100559 recall: 0.7328170378 precision: 1
+Purity: 1.0000000280 Job: 1 
+Cluster 1 searching for:  bigwet  Found 588 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.6573504752 recall: 0.4895920067 precision: 1
+Purity: 1.0000000164 Job: 1 
+Cluster 2 searching for:  fbi floods boston  Found 742 hits:
+0 path null cat number bostonBomb catName: bostonBomb
+1 path null cat number bostonBomb catName: bostonBomb
+2 path null cat number bostonBomb catName: bostonBomb
+3 path null cat number bostonBomb catName: bostonBomb
+4 path null cat number bostonBomb catName: bostonBomb
+categoryTotal is 1001 for catQ category_name:bostonBomb 
+f1: 0.63224325872451089498 recall: 0.5504495504 precision: 0.7425876011
+Purity: 0.7425876039 Job: 1 
+Cluster 3 searching for:  prayforboston boulder colorado  Found 1048 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.74433081369487764039 recall: 0.6969192340 precision: 0.7986641221
+Purity: 0.7986641445 Job: 1 
+f1list: [0.8458100559, 0.6573504752, 0.63224325872451089498, 0.74433081369487764039] averagef1: :0.7199336508798471338425
+PosHits: 3001 NegHits: 134 PosScore: 1309.2840159833431 NegScore: 33.944696590304375 Fitness: 1158.6882397878298 
+ TotalHits: 3068 Total Docs: 4436
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  boston marathon  Found 570 hits:
+0 path null cat number bostonBomb catName: bostonBomb
+1 path null cat number bostonBomb catName: bostonBomb
+2 path null cat number bostonBomb catName: bostonBomb
+3 path null cat number bostonBomb catName: bostonBomb
+4 path null cat number bostonBomb catName: bostonBomb
+categoryTotal is 1001 for catQ category_name:bostonBomb 
+f1: 0.72056015273024670174 recall: 0.5654345654 precision: 0.9929824561
+Purity: 0.9929824760 Job: 2 
+Cluster 1 searching for:  lax  Found 757 hits:
+0 path null cat number LAshooting catName: LAshooting
+1 path null cat number LAshooting catName: LAshooting
+2 path null cat number LAshooting catName: LAshooting
+3 path null cat number LAshooting catName: LAshooting
+4 path null cat number LAshooting catName: LAshooting
+categoryTotal is 1033 for catQ category_name:LAshooting 
+f1: 0.8458100559 recall: 0.7328170378 precision: 1
+Purity: 1.0000000280 Job: 2 
+Cluster 2 searching for:  bigwet  Found 588 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.6573504752 recall: 0.4895920067 precision: 1
+Purity: 1.0000000164 Job: 2 
+Cluster 3 searching for:  colorado  Found 805 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.8025922233 recall: 0.6702747710 precision: 1
+Purity: 0.9999999800 Job: 2 
+f1list: [0.72056015273024670174, 0.8458100559, 0.6573504752, 0.8025922233] averagef1: :0.756578226782561675435
+PosHits: 2714 NegHits: 6 PosScore: 2136.358735576272 NegScore: 3.7848627865314484 Fitness: 1551.1729514305664 
+ TotalHits: 2717 Total Docs: 4436
+************************************************ 
+ 
+Job 1 **************************************************************** 
+ Cluster 0 searching for:  lax  Found 757 hits:
+0 path null cat number LAshooting catName: LAshooting
+1 path null cat number LAshooting catName: LAshooting
+2 path null cat number LAshooting catName: LAshooting
+3 path null cat number LAshooting catName: LAshooting
+4 path null cat number LAshooting catName: LAshooting
+categoryTotal is 1033 for catQ category_name:LAshooting 
+f1: 0.8458100559 recall: 0.7328170378 precision: 1
+Purity: 1.0000000280 Job: 1 
+Cluster 1 searching for:  bigwet qldfloods floods  Found 854 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.83017031626627936136 recall: 0.7102414654 precision: 0.9988290398
+Purity: 0.9988290506 Job: 1 
+Cluster 2 searching for:  colorado  Found 805 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.8025922233 recall: 0.6702747710 precision: 1
+Purity: 0.9999999800 Job: 1 
+Cluster 3 searching for:  boston  Found 542 hits:
+0 path null cat number bostonBomb catName: bostonBomb
+1 path null cat number bostonBomb catName: bostonBomb
+2 path null cat number bostonBomb catName: bostonBomb
+3 path null cat number bostonBomb catName: bostonBomb
+4 path null cat number bostonBomb catName: bostonBomb
+categoryTotal is 1001 for catQ category_name:bostonBomb 
+f1: 0.69734283865776813229 recall: 0.5374625375 precision: 0.9926199262
+Purity: 0.9926199530 Job: 1 
+f1list: [0.8458100559, 0.83017031626627936136, 0.8025922233, 0.69734283865776813229] averagef1: :0.7939788585310118734125
+PosHits: 2952 NegHits: 6 PosScore: 1882.4680730104446 NegScore: 4.400417983531952 Fitness: 1517.5135078741737 
+ TotalHits: 2955 Total Docs: 4436
+************************************************ 
+ 
+Job 2 **************************************************************** 
+ Cluster 0 searching for:  bigwet  Found 588 hits:
+0 path null cat number qsflood catName: qsflood
+1 path null cat number qsflood catName: qsflood
+2 path null cat number qsflood catName: qsflood
+3 path null cat number qsflood catName: qsflood
+4 path null cat number qsflood catName: qsflood
+categoryTotal is 1201 for catQ category_name:qsflood 
+f1: 0.6573504752 recall: 0.4895920067 precision: 1
+Purity: 1.0000000164 Job: 2 
+Cluster 1 searching for:  marathon prayforboston boston  Found 730 hits:
+0 path null cat number bostonBomb catName: bostonBomb
+1 path null cat number bostonBomb catName: bostonBomb
+2 path null cat number bostonBomb catName: bostonBomb
+3 path null cat number bostonBomb catName: bostonBomb
+4 path null cat number bostonBomb catName: bostonBomb
+categoryTotal is 1001 for catQ category_name:bostonBomb 
+f1: 0.83882149046876214181 recall: 0.7252747253 precision: 0.9945205479
+Purity: 0.9945205380 Job: 2 
+Cluster 2 searching for:  lax  Found 757 hits:
+0 path null cat number LAshooting catName: LAshooting
+1 path null cat number LAshooting catName: LAshooting
+2 path null cat number LAshooting catName: LAshooting
+3 path null cat number LAshooting catName: LAshooting
+4 path null cat number LAshooting catName: LAshooting
+categoryTotal is 1033 for catQ category_name:LAshooting 
+f1: 0.8458100559 recall: 0.7328170378 precision: 1
+Purity: 1.0000000280 Job: 2 
+Cluster 3 searching for:  colorado  Found 805 hits:
+0 path null cat number coloradowf catName: coloradowf
+1 path null cat number coloradowf catName: coloradowf
+2 path null cat number coloradowf catName: coloradowf
+3 path null cat number coloradowf catName: coloradowf
+4 path null cat number coloradowf catName: coloradowf
+categoryTotal is 1201 for catQ category_name:coloradowf 
+f1: 0.8025922233 recall: 0.6702747710 precision: 1
+Purity: 0.9999999800 Job: 2 
+f1list: [0.6573504752, 0.83882149046876214181, 0.8458100559, 0.8025922233] averagef1: :0.7861435612171905354525
+PosHits: 2874 NegHits: 6 PosScore: 2016.191733084619 NegScore: 2.9517012536525726 Fitness: 1565.1243398707165 
+ TotalHits: 2877 Total Docs: 4436
+************************************************ 
+ 
