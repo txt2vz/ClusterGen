@@ -30,13 +30,13 @@ class IndexInfo {
 	public static final String FIELD_PATH = "path";
 	public static final String FIELD_TEST_TRAIN = "test_train";
 
-    int NUMBER_OF_CLUSTERS = 2 
+    int NUMBER_OF_CLUSTERS =  4
 
 	public IndexSearcher indexSearcher
 	public IndexReader indexReader
 
 	public String pathToIndex =
-	"indexes/disaster"
+//"indexes/disaster"
 	//"indexes/Ohs3Bact02Dig06Resp08"
 	//"indexes/20NG5macForsaleHockeyCryptMideast"
 	//"indexes/reut5"
@@ -45,7 +45,7 @@ class IndexInfo {
 	//"indexes/reut8stem"
 	//"indexes/reut8"
 	//'indexes/20NG3SpaceHockeyChristian'
-	//"indexes/20NG4GunCryptChristHockey"
+	"indexes/20NG4GunCryptChristHockey"
 	
 
 	public void setIndex(){

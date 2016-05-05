@@ -50,7 +50,7 @@ public class Results {
 
 	public static void displayDocuments(final Collection<Document> documents)
 	{
-		println ("CollectedXX " + documents.size() + " documents\n");
+		println ("Collected " + documents.size() + " documents\n");
 		documents.take(7).each { displayDocument(0, it) }
 	}
 
