@@ -4,9 +4,9 @@
 
 eval.problem = ecj.Cluster
 
-evalthreads = 6 
-breedthreads = 6
-generations =  120   
+evalthreads = 4 
+breedthreads = 4
+generations =  820   
 breed.elite.0 = 1
 
 //pop.subpops = 3

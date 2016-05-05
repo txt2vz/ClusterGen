@@ -25,20 +25,26 @@ import org.apache.lucene.codecs.*
 
 class BuildClusterIndexFromCSV {
 	// Create Lucene index in this directory
-	def indexPath =                "indexes/disaster"
+	def indexPath = "indexes/crisis4FireBombFloodShoot"              
+	//  "indexes/disaster"
 
 	def filePath =
+//	"dataset/crisisData/2012_Colorado_wildfires-tweets_labeled.csv"
+//	"dataset/crisisData/2013_Boston_bombings-tweets_labeled.csv"
+//	"dataset/crisisData/2013_LA_airport_shootings-tweets_labeled.csv"
+	"dataset/crisisData/2013_Queensland_floods-tweets_labeled.csv"
 //	"/home/test/dataset/cw.csv"
-	"/home/test/dataset/qsFlood.csv"
+//	"/home/test/dataset/qsFlood.csv"
 
 	def catName= "qsflood"
+//	def catName= "bostonBomb"
 //	def catName= "coloradowf"
+//	def catName= "LAshooting"
 
 	Path path = Paths.get(indexPath)
 	Directory directory = FSDirectory.open(path)
 	Analyzer analyzer = //new EnglishAnalyzer();
-	new StandardAnalyzer();
-
+	                   new StandardAnalyzer();
 
 	static main(args) {
 		def i = new BuildClusterIndexFromCSV()
@@ -60,7 +66,7 @@ class BuildClusterIndexFromCSV {
 
 		def x=0
 		new File(filePath).splitEachLine(",") {fields ->
-
+             
 			def body = fields[1]
 			def doc = new Document()
 			if (body!="")

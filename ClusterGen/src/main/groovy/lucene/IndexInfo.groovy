@@ -45,7 +45,8 @@ class IndexInfo {
 	//"indexes/reut8stem"
 	//"indexes/reut8"
 	//'indexes/20NG3SpaceHockeyChristian'
-	"indexes/20NG4GunCryptChristHockey"
+	//"indexes/20NG4GunCryptChristHockey"
+	"indexes/crisis4FireBombFloodShoot"
 	
 
 	public void setIndex(){
