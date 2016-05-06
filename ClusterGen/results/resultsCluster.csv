@@ -1,3 +1,7 @@
-job, fitness, posHits, negHits, posScore, negScore, query
-1, 1517.514, 2952, 6, 1882.468, 4.400, Job: 1 Cluster 0: 757 lax ## Cluster 1: 854 bigwet qldfloods floods ## Cluster 2: 805 colorado ## Cluster 3: 542 boston ## 
-2, 1565.124, 2874, 6, 2016.192, 2.952, Job: 2 Cluster 0: 588 bigwet ## Cluster 1: 730 marathon prayforboston boston ## Cluster 2: 757 lax ## Cluster 3: 805 colorado ## 
+gen, job, popSize, fitness, averageF1, query
+3, 1, 1024, 155.054, 0.259, Job: 1 Cluster 0: 153 explosions waldocanyonfire terrorist ## Cluster 1: 215 look shot via ## Cluster 2: 696 bigwet abc new ## Cluster 3: 154 go state incident ## 
+3, 2, 1024, 120.764, 0.185, Job: 2 Cluster 0: 330 fire de closed ## Cluster 1: 108 shot lost ## Cluster 2: 178 made happened affected ## Cluster 3: 324 highparkfire i'm australia ## 
+3, 1, 1024, 144.719, 0.316, Job: 1 Cluster 0: 304 great tsa angeles ## Cluster 1: 96 coast abc smoke ## Cluster 2: 515 prayforboston flagstafffire marathon ## Cluster 3: 152 dzhokhar fbi latest ## 
+3, 2, 1024, 137.367, 0.264, Job: 2 Cluster 0: 192 cnn australia hundreds ## Cluster 1: 427 marathon shooter home ## Cluster 2: 237 morning la los ## Cluster 3: 157 tsarnaev canyon high ## 
+719, 1, 1024, 1469.754, 0.787, Job: 1 Cluster 0: 730 boston marathon prayforboston ## Cluster 1: 810 colorado springs ## Cluster 2: 757 lax ## Cluster 3: 588 bigwet ## 
+719, 2, 1024, 1000.117, 0.572, Job: 2 Cluster 0: 1158 bigwet boston marathon ## Cluster 1: 456 floods australia prayforboston ## Cluster 2: 757 lax ## Cluster 3: 580 wildfire highparkfire springs ## 

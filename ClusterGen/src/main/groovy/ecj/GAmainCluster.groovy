@@ -1,5 +1,5 @@
  package ecj
- 
+
 import lucene.IndexInfo
 import ec.EvolutionState
 import ec.Evolve
@@ -11,7 +11,7 @@ class GAmainCluster extends Evolve {
 	private final String parameterFilePath =  "src/cfg/Cluster.params"
 
 	final static int NUMBER_OF_JOBS = 2;
- 
+
 	public GAmainCluster(){
 		EvolutionState state;
 		IndexInfo.instance.setIndex()
@@ -25,7 +25,7 @@ class GAmainCluster extends Evolve {
 			state = initialize(parameters, job);
 			state.output.systemMessage("Job: " + job);
 			state.job = new Object[1];
-			state.job[0] = new Integer(job); 
+			state.job[0] = new Integer(job);
 
 			if (NUMBER_OF_JOBS >= 1) {
 				final String jobFilePrefix = "job." + job;
@@ -33,14 +33,16 @@ class GAmainCluster extends Evolve {
 				state.checkpointPrefix = jobFilePrefix 	+ state.checkpointPrefix;
 			}
 			state.run(EvolutionState.C_STARTED_FRESH);
-
+			
+			def popSize=0;
 			ClusterFit cfit = (ClusterFit) state.population.subpops.collect {sbp ->
-				sbp.individuals.max() {ind -> 
-					ind.fitness.fitness()}.fitness
+				popSize= popSize + sbp.individuals.size()
+				sbp.individuals.max() {ind ->
+					ind.fitness.fitness()
+				}.fitness
 			}.max  {it.fitness()}
-
-			cfit.queryTest(job)
-			cfit.saveFinalResults(job)
+			println "pop size $popSize" 
+			cfit.queryStats(job, state.generation, popSize)	
 
 			cleanup(state);
 			println " ---------------------------------END-----------------------------------------------"

@@ -1,6 +1,5 @@
 package ecj;
 
-//import org.apache.lucene.search.Query
 import ec.simple.SimpleFitness
 import lucene.IndexInfo
 
@@ -43,9 +42,11 @@ public class ClusterFit extends SimpleFitness {
 	def emptyPen =0
 	Formatter bestResultsOut
 
+	def averageF1
+
 	IndexSearcher searcher = IndexInfo.instance.indexSearcher;
 
-	public String queryShort (){
+	private String queryShort (){
 		def s=""
 		queryMap.keySet().eachWithIndex {q, index ->
 			if (index>0) s+='\n';
@@ -54,25 +55,25 @@ public class ClusterFit extends SimpleFitness {
 		return s
 	}
 
-	public int getTotalHits(){
+	private int getTotalHits(){
 
-		int hitsPerPage=5000
-		def docsReturned =[] as Set
+		int hitsPerPage=Integer.MAX_VALUE
 
-		queryMap.keySet().each {q ->
+		def docsReturned =	queryMap.keySet().inject([] as Set) {docSet, q ->
 
 			TopDocs topDocs = searcher.search(q, hitsPerPage)
 			ScoreDoc[] hits = topDocs.scoreDocs;
-			hits.each {h -> docsReturned << h.doc }
+			hits.each {h -> docSet << h.doc				 }
+			docSet
 		}
 		return docsReturned.size()
 	}
 
-	public void queryTest (int job){
-		def s=""
-		int hitsPerPage=5000
-		FileWriter resOut = new FileWriter("results/clusterPurity.txt", true)
-		resOut <<"Job $job **************************************************************** \n "
+	public void queryStats (int job, int gen, int popSize){
+		def messageOut=""
+		int hitsPerPage=10000
+		FileWriter resOut = new FileWriter("results/clusterResultsF1.txt", true)
+		resOut <<"  ***** Job: $job Gen: $gen PopSize: $popSize Noclusters:" + IndexInfo.instance.NUMBER_OF_CLUSTERS + " pathToIndex: " + IndexInfo.instance.pathToIndex + " **************************************************************** \n "
 
 		def f1list = []
 		queryMap.keySet().eachWithIndex {q, index ->
@@ -83,29 +84,34 @@ public class ClusterFit extends SimpleFitness {
 			def qString = q.toString(IndexInfo.FIELD_CONTENTS)
 
 			println "***********************************************************************************"
-			println "Searching for:  $qString  Found ${hits.length} hits:"
-			resOut << "Cluster $index searching for:  $qString  Found ${hits.length} hits:" + '\n'
+			messageOut = "Cluster $index searching for:  $qString  Found ${hits.length} hits:" + '\n'
+			println messageOut
+			resOut << messageOut
 
+			//map of categories (ground truth) and their frequencies
 			def catsFreq=[:]
 			hits.eachWithIndex{ h, i ->
 				int docId = h.doc;
 				def scr = h.score
 				Document d = searcher.doc(docId);
 				def cat = d.get(IndexInfo.FIELD_CATEGORY_NAME)
-
 				def n = catsFreq.get((cat)) ?: 0
 				catsFreq.put((cat), n + 1)
+
 				if (i <5){
-					def res = "$i path " + d.get(IndexInfo.FIELD_PATH)	+ " cat number $cat catName: " + d.get(IndexInfo.FIELD_CATEGORY_NAME)
-					println res
-					resOut << res + '\n'
+					messageOut = "$i path " + d.get(IndexInfo.FIELD_PATH)	+ " cat number $cat catName: " + d.get(IndexInfo.FIELD_CATEGORY_NAME)
+					println messageOut
+					resOut << messageOut + '\n'
 				}
 			}
-			println "Cluster: $index catsFreq: $catsFreq for query: $qString "
-			//def catMax = catsFreq.max { a, b ->  a.value <=> b.value  }.value
+			println "Gen: $gen Cluster: $index catsFreq: $catsFreq for query: $qString "
+
+			//find the category with maximimum returned docs for this query
 			def catMax = catsFreq?.max{it?.value} ?:0
-			println "catsFreq $catsFreq"
-			println " cats max: $catMax "
+
+			println "catsFreq: $catsFreq cats max: $catMax "
+
+			//purity measure - check this is correct?
 			def purity = (hits.size()==0) ? 0 : (1 / hits.size())  * catMax.value
 			println "purity:  $purity"
 
@@ -115,57 +121,54 @@ public class ClusterFit extends SimpleFitness {
 						catMax.key));
 				searcher.search(catQ, thcollector);
 				def categoryTotal = thcollector.getTotalHits();
-				s = "categoryTotal is $categoryTotal for catQ $catQ \n"
-				println s
-				resOut << s
+				messageOut = "categoryTotal is $categoryTotal for catQ $catQ \n"
+				println messageOut
+				resOut << messageOut
 
 				def recall = catMax.value / categoryTotal;
 				def precision = catMax.value / hits.size()
 				def f1 = (2 * precision * recall) / (precision + recall);
 				f1list << f1
-				def out = "f1: $f1 recall: $recall precision: $precision"
-				println out
-				resOut << out + "\n"
+				messageOut = "f1: $f1 recall: $recall precision: $precision"
+				println messageOut
+				resOut << messageOut + "\n"
 				resOut << "Purity: $purity Job: $job \n"
 			}
 		}
-		def averagef1 = f1list.sum()/f1list.size()
+		averageF1 = f1list.sum()/f1list.size()
 
-		def o = "f1list: $f1list averagef1: :$averagef1"
-		println o
-		resOut << o + "\n"
+		messageOut = "f1list: $f1list averagef1: :$averageF1"
+		println messageOut
+		resOut << messageOut + "\n"
 
-		resOut << "PosHits: $posHits NegHits: $negHits PosScore: $positiveScore NegScore: $negativeScore Fitness: ${fitness()} \n "
+		resOut << "PosHits: $posHits NegHits: $negHits PosScore: $positiveScore NegScore: $negativeScore Fitness: ${fitness()} \n"
 		resOut << "TotalHits: " + getTotalHits() + " Total Docs: " + IndexInfo.instance.indexReader.maxDoc() + "\n"
 		resOut << "************************************************ \n \n"
 
 		resOut.flush()
 		resOut.close()
-	}
 
-	public void saveFinalResults(int job){
-		boolean appnd = job!=1
+		boolean appnd = true //job!=1
 		FileWriter f = new FileWriter("results/resultsCluster.csv", appnd)
-		Formatter resultsOut = new Formatter(f);
+		Formatter csvOut = new Formatter(f);
 		if (!appnd){
-			final String fileHead = "job, fitness, posHits, negHits, posScore, negScore, query" + '\n';
-			resultsOut.format("%s", fileHead)
+			final String fileHead = "gen, job, popSize, fitness, averageF1, query" + '\n';
+			csvOut.format("%s", fileHead)
 		}
-		resultsOut.format(
-				"%s, %.3f, %d, %d, %.3f, %.3f, %s",
+		csvOut.format(
+				"%s, %s, %s, %.3f, %.3f, %s",
+				gen,
 				job,
+				popSize,
 				fitness(),
-				posHits,
-				negHits,
-				positiveScore as float,
-				negativeScore as float,
+				averageF1,
 				queryForCSV(job) );
 
-		resultsOut.flush();
-		resultsOut.close()
+		csvOut.flush();
+		csvOut.close()
 	}
 
-	public String queryForCSV (int job){
+	private String queryForCSV (int job){
 		def s="Job: $job "
 		queryMap.keySet().eachWithIndex {q, index ->
 			s += "Cluster " + index + ": " + queryMap.get(q) + " " + q.toString(IndexInfo.FIELD_CONTENTS) + " ## "

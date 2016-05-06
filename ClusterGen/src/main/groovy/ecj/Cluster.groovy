@@ -108,15 +108,14 @@ public class Cluster extends Problem implements CreateQueriesT, SimpleProblemFor
 		def scoreOnly = posScore - negScore
 		def scorePlus = (scoreOnly < -minScore) ? 0 : scoreOnly + minScore
 
-		def negIndicators =   (graphPen+1) *	// (treePen+1) *
-				(noHitsCount+1) * (duplicateCount+1)  * (emptyPen + 1) 		* (coreClusterPen +1)
+		def negIndicators =   //(graphPen+1) *	// (treePen+1) *
+				(noHitsCount+1) * (duplicateCount+1)  * (emptyPen + 1) 	* (coreClusterPen +1)
 
 
 		def fractionCovered = allHits.size() / IndexInfo.instance.indexReader.maxDoc()
 		def missedDocs = IndexInfo.instance.indexReader.maxDoc() - allHits.size()
 		///You might want to multiple your fitness function by 1/(number of unclassified documents).
 		//(1.1)^{number of words covered by clusters}.
-
 
 		def baseFitness = scorePlus / negIndicators
 		def rawfitness=

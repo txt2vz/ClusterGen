@@ -68,6 +68,7 @@ class BuildClusterIndexFromCSV {
 		new File(filePath).splitEachLine(",") {fields ->
              
 			def body = fields[1]
+			//def tweetID = fields[0]
 			def doc = new Document()
 			if (body!="")
 				doc.add(new TextField(IndexInfo.FIELD_CONTENTS, body,  Field.Store.YES))
