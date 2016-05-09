@@ -10,7 +10,9 @@ class StopSet {
 
 	public static Set<String> getStopSetFromFile()  {
 
-		def stopSet = new File('src/cfg/stop_words_moderate.txt') as String[]
+		def stopSet =     
+		  //new File('src/cfg/stop_words_most.txt') as String[]
+		    new File('src/cfg/stop_words_moderate.txt') as String[]
 		//println "stopSet $stopSet"
 		return stopSet;
 	}

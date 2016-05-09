@@ -24,29 +24,27 @@ import query.*
 class IndexInfo {
 
 	// Lucene field names
-	//public static final String FIELD_CATEGORY = "category";
 	public static final String FIELD_CATEGORY_NAME = "category_name";
 	public static final String FIELD_CONTENTS = "contents";
 	public static final String FIELD_PATH = "path";
 	public static final String FIELD_TEST_TRAIN = "test_train";
 
-    int NUMBER_OF_CLUSTERS =  4
+    int NUMBER_OF_CLUSTERS =  3
 
 	public IndexSearcher indexSearcher
 	public IndexReader indexReader
 
 	public String pathToIndex =
-//"indexes/disaster"
+
 	//"indexes/Ohs3Bact02Dig06Resp08"
-	//"indexes/20NG5macForsaleHockeyCryptMideast"
+	//"indexes/20NG6GraphicsHockeyCryptSpaceChristianGuns"
+    "indexes/20NG3SpaceHockeyChristian"
 	//"indexes/reut5"
 	//"indexes/classic4_500"
 	//"indexes/webkb"
 	//"indexes/reut8stem"
 	//"indexes/reut8"
-	//'indexes/20NG3SpaceHockeyChristian'
-	//"indexes/20NG4GunCryptChristHockey"
-	"indexes/crisis4FireBombFloodShoot"
+	//  "indexes/crisis4FireBombFloodShoot"
 	
 
 	public void setIndex(){

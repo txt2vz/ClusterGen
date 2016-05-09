@@ -25,40 +25,23 @@ import org.apache.lucene.codecs.*
 
 class BuildClusterIndex {
 	// Create Lucene index in this directory
-	def indexPath = "indexes/Ohs3Bact02Dig06Resp08"	
-	//"indexes/20NG5macForsaleHockeyCryptMideast"
-	//"indexes/20NG3SpaceHockeyChristian"
+	def indexPath = 
+	  //"indexes/Ohs3Bact02Dig06Resp08"	
+//	"indexes/20NG6GraphicsHockeyCryptSpaceChristianGuns"	
+	"indexes/20NG3SpaceHockeyChristian"
 
-	//	/C:\Users\laurie\Java\indexes2\classic4_500/
-	//"C:\\Users\\laurie\\Java\\indexes2\\webkb"
-	//"C:\\Users\\laurie\\Java\\indexes2\\20NG3TestSpaceHockeyChristian"
-	//"C:\\Users\\laurie\\Java\\indexes2\\20NG4GunCryptChristianHockeyP"
-	//'/home/test/indexes/20NG3SpaceHockeyChristian'
-	//'/home/test/indexes2/20NG4HockeySpaceChristianGunsNoStem'
-	//"C:\\Users\\laurie\\Java\\indexes2\\20NG3MedHockeyGraphicsTest"
-	//"C:\\Users\\laurie\\Java\\indexes2\\bbc2"
-
-	// Index files in this directory
-	//	def docsPath = "C:\\Users\\Laurie\\Dataset\\20NG3Test"
+	// Index files in this directory	
 	def docsPath =
-//  	/C:\Users\Laurie\Dataset\webkb/
-	
-	// /C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian/
-	/C:\Users\Laurie\Dataset\Ohs3BactDigestResp/
-	//  /C:\Users\Laurie\Dataset\20NG5macForsaleCryptMideast/
-//	/C:\Users\Laurie\Dataset\20NG4GunCryptChristianHockey/
-	//C:\Users\Laurie\Dataset\classic/
-	//"C:\\Users\\Laurie\\Dataset\\20NG3TestSpaceHockeyChristian"
-	//"C:\\Users\\Laurie\\Dataset\\20NG4GunCryptChristianHockey"
+	// /C:\Users\Laurie\Dataset\20NG6GraphicsHockeyCryptSpaceChristianGuns/	
+	/C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian/
+
 	//'/home/test/datasets/20NG3SpaceHockeyChristian'
 	//'/home/test/dataset/20NG4HockeySpaceChristianGuns/'
-	//"C:\\Users\\Laurie\\Dataset\\bbc"
-	//"C:\\Users\\Laurie\\Dataset\\20bydate"
 
 	Path path = Paths.get(indexPath)
 	Directory directory = FSDirectory.open(path)
 	Analyzer analyzer = //new EnglishAnalyzer();
-	new StandardAnalyzer();
+	                 new StandardAnalyzer();
 	def catsFreq=[:]
 
 	static main(args) {
@@ -103,17 +86,12 @@ class BuildClusterIndex {
 	throws IOException {
 
 		def doc = new Document()
-//C:\Users\Laurie\Dataset\Ohs3BactDigestResp\C08
 
 		Field pathField = new StringField(IndexInfo.FIELD_PATH, f.getPath(), Field.Store.YES);
 		doc.add(pathField);
 
-		//for classic3 dataset
-		//def catName = f.getName().substring(0,4)
-//C:\Users\Laurie\Dataset\20NG3TestSpaceHockeyChristian\rec.sport.hockey\53715
-		//for webKB
-		def catName = f.getCanonicalPath().drop(44).take(8).replaceAll("[0-9]","")
-	
+		def catName = f.getCanonicalPath().drop(54).take(30).replaceAll(/[^a-z.]/, "")     //'[0-9]|\ ',"")	
+
 
 		def n = catsFreq.get((catName)) ?: 0
 		if (n< 500 || true){

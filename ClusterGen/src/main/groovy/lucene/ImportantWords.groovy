@@ -66,7 +66,7 @@ public class ImportantWords {
 			    || 
 				stopSet.contains(t.text())
 			//	|| t.text().contains("'")		
-			//	|| t.text().length()<2
+				|| t.text().length()<2
 			//	|| !c.isLetter()
 				//|| dfFraction < 0.005
 			//	|| t.text().contains(".")

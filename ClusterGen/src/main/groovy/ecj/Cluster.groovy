@@ -111,7 +111,6 @@ public class Cluster extends Problem implements CreateQueriesT, SimpleProblemFor
 		def negIndicators =   //(graphPen+1) *	// (treePen+1) *
 				(noHitsCount+1) * (duplicateCount+1)  * (emptyPen + 1) 	* (coreClusterPen +1)
 
-
 		def fractionCovered = allHits.size() / IndexInfo.instance.indexReader.maxDoc()
 		def missedDocs = IndexInfo.instance.indexReader.maxDoc() - allHits.size()
 		///You might want to multiple your fitness function by 1/(number of unclassified documents).

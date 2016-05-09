@@ -48,18 +48,17 @@ trait CreateQueriesT {
 				TermQuery tq = new TermQuery(new Term(IndexInfo.FIELD_CONTENTS, wrd))
 				bqbList[clusterNumber].add(tq,BooleanClause.Occur.SHOULD)
 
-				//check that the subquery returns something
-				TotalHitCountCollector collector = new TotalHitCountCollector();
-				searcher.search(tq, collector);
-				if (collector.getTotalHits() < hitsMin)
-				{
-					noHitsCount = noHitsCount + 1;
-				}
+				//check that the subquery returns something - not needed for OR?
+			//	TotalHitCountCollector collector = new TotalHitCountCollector();
+			//	searcher.search(tq, collector);
+			//	if (collector.getTotalHits() < hitsMin)
+			//	{
+				//	noHitsCount = noHitsCount + 1;
+			//	}
 				//	}
 			}
 		}
 		return bqbList
-
 	}
 
 	def getORNOTQL(String[] wordArray, IntegerVectorIndividual intVectorIndividual, int cNumber ) {
@@ -74,8 +73,6 @@ trait CreateQueriesT {
 		def bqbList = []
 
 		intVectorIndividual.genome.eachWithIndex {gene, index ->
-
-
 
 			int clusterNumber =  index % cNumber
 
@@ -104,14 +101,13 @@ trait CreateQueriesT {
 				{
 					noHitsCount = noHitsCount + 1;
 				}
-
 			}
 		}
 		return bqbList
-
 	}
 
-	def getANDQL(String[] wordArray, IntegerVectorIndividual intVectorIndividual, int cNumber ) {
+	//query in DNF format - could be used to generate graph
+	def getANDQL(String[] wordArray, IntegerVectorIndividual intVectorIndividual, int cNumber) {
 
 		treePen=0
 		graphPen=0

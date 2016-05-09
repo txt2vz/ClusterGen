@@ -1,4 +1,4 @@
- package lucene
+  package lucene
 
 import groovy.io.FileType
 import java.nio.file.Path
@@ -26,35 +26,16 @@ class BuildReut8 {
 	// Create Lucene index in this directory
 	def indexPath = 	"indexes/reut5"
 
-	//	/C:\Users\laurie\Java\indexes2\classic4_500/
-	//"C:\\Users\\laurie\\Java\\indexes2\\webkb"
-	//"C:\\Users\\laurie\\Java\\indexes2\\20NG3TestSpaceHockeyChristian"
-	//"C:\\Users\\laurie\\Java\\indexes2\\20NG4GunCryptChristianHockeyP"
-	//'/home/test/indexes/20NG3SpaceHockeyChristian'
-	//'/home/test/indexes2/20NG4HockeySpaceChristianGunsNoStem'
-	//"C:\\Users\\laurie\\Java\\indexes2\\20NG3MedHockeyGraphicsTest"
-	//"C:\\Users\\laurie\\Java\\indexes2\\bbc2"
-
 	// Index files in this directory
-	//	def docsPath = "C:\\Users\\Laurie\\Dataset\\20NG3Test"
+
 	def docsPath =
 	//"dataset/r8/r8"
-	// /C:\Users\Laurie\Dataset\webkb/
-	//C:\Users\Laurie\Dataset\reut8/
-	// /C:\Users\Laurie\Dataset\reuters-top10/
 	/C:\Users\Laurie\Dataset\r5/
-	//C:\Users\Laurie\Dataset\classic/
-	//"C:\\Users\\Laurie\\Dataset\\20NG3TestSpaceHockeyChristian"
-	//"C:\\Users\\Laurie\\Dataset\\20NG4GunCryptChristianHockey"
-	//'/home/test/datasets/20NG3SpaceHockeyChristian'
-	//'/home/test/dataset/20NG4HockeySpaceChristianGuns/'
-	//"C:\\Users\\Laurie\\Dataset\\bbc"
-	//"C:\\Users\\Laurie\\Dataset\\20bydate"
 
 	Path path = Paths.get(indexPath)
 	Directory directory = FSDirectory.open(path)
 	Analyzer analyzer = //new EnglishAnalyzer();
-	                  new StandardAnalyzer();
+	new StandardAnalyzer();
 	def catsFreq=[:]
 	def docsSet = [] as Set
 
@@ -79,9 +60,7 @@ class BuildReut8 {
 			//	it.eachDir{
 			it.eachFileRecurse(FileType.FILES) { file ->
 
-
 				indexDocs(writer,file, catNumber)
-
 			}
 			//	}
 			catNumber++;
@@ -94,7 +73,6 @@ class BuildReut8 {
 
 		IndexSearcher searcher = new IndexSearcher(writer.getReader());
 
-		//IndexSearcher searcher2 = IndexInfo.instance.indexSearcher
 		TotalHitCountCollector thcollector  = new TotalHitCountCollector();
 		final TermQuery catQ = new TermQuery(new Term(IndexInfo.FIELD_CATEGORY,	"gra"))
 		searcher.search(catQ, thcollector);
@@ -117,14 +95,10 @@ class BuildReut8 {
 		//for classic3 dataset
 		//def catName = f.getName().substring(0,4)
 
-		//for webKB
 		def catName = f.getCanonicalPath().drop(49).take(3)
 		//println "catName $catName"
-// /home/test/git/ClusterGA/ClusterGA/dataset/r8/r8/interest/0006418.txt
+		// /home/test/git/ClusterGA/ClusterGA/dataset/r8/r8/interest/0006418.txt
 		//C:\Users\Laurie\Dataset\reuters-top10\04_grain
-		//C:\Users\Laurie\Dataset\reut8\01_corn
-		//C:\Users\Laurie\Dataset\reut90\training\alum
-		//C:\Users\Laurie\Dataset\r8\acq
 
 		def n = catsFreq.get((catName)) ?: 0
 		//if (n< 10 || true){
@@ -152,7 +126,5 @@ class BuildReut8 {
 		doc.add(ttField)
 
 		writer.addDocument(doc);
-		//} else println "Not adding fnameXX ${f.name} catName $catName"
-		//}
 	}
 }
