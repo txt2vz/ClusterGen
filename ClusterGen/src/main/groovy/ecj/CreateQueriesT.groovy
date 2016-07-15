@@ -1,4 +1,4 @@
-package ecj;
+ package ecj;
 
 import lucene.IndexInfo
 

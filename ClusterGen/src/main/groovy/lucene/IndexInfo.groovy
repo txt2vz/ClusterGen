@@ -38,14 +38,13 @@ class IndexInfo {
 
 	//"indexes/Ohs3Bact02Dig06Resp08"
 	//"indexes/20NG6GraphicsHockeyCryptSpaceChristianGuns"
-    "indexes/20NG3SpaceHockeyChristian"
+    "indexes/20NG3SpaceHockeyChristian" 
 	//"indexes/reut5"
 	//"indexes/classic4_500"
 	//"indexes/webkb"
 	//"indexes/reut8stem"
 	//"indexes/reut8"
-	//  "indexes/crisis4FireBombFloodShoot"
-	
+	//  "indexes/crisis4FireBombFloodShoot" 	
 
 	public void setIndex(){
 
