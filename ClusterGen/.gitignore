@@ -8,4 +8,5 @@
 *.xlsx
 *.csv
 gradle.prefs
-src/cfg/statDump/
+/src/cfg/statDump/
+/results/
