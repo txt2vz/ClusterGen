@@ -6,4 +6,6 @@
 .project
 .settings
 *.xlsx
+*.csv
 gradle.prefs
+src/cfg/statDump/
