@@ -10,7 +10,7 @@ class GAmainCluster extends Evolve {
 
 	private final String parameterFilePath =  "src/cfg/Cluster.params"
 
-	final static int NUMBER_OF_JOBS = 2;
+	final static int NUMBER_OF_JOBS = 1;
 
 	public GAmainCluster(){
 		EvolutionState state;
@@ -19,7 +19,7 @@ class GAmainCluster extends Evolve {
 
 		final Date startRun = new Date();
 
-		for (job in 1..NUMBER_OF_JOBS){
+		NUMBER_OF_JOBS.times{job ->
 			parameters = new ParameterDatabase(new File(parameterFilePath));
 
 			state = initialize(parameters, job);
